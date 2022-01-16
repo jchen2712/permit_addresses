@@ -1,0 +1,3738 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_79863bc3c29740f48a38848dc7065dbb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_79863bc3c29740f48a38848dc7065dbb" ></div>
+        
+</body>
+<script>    
+    
+            var map_79863bc3c29740f48a38848dc7065dbb = L.map(
+                "map_79863bc3c29740f48a38848dc7065dbb",
+                {
+                    center: [40.712776, -74.005974],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_518512d7821c4176848cc3f3c030370d = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var marker_db7c1746819243ef99bbd5d83b36610d = L.marker(
+                [40.7369162, -73.9588028],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_19bdec5018a94777ad9918b18f77ee9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_db7c1746819243ef99bbd5d83b36610d.setIcon(icon_19bdec5018a94777ad9918b18f77ee9a);
+        
+    
+        var popup_bb3a9dd654fe4bac92ba3718ddd45ed2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dcb1e8244e24be6a0052764d69c8461 = $(`<div id="html_0dcb1e8244e24be6a0052764d69c8461" style="width: 100.0%; height: 100.0%;">('Supported Scaffold', '$5,000,000')</div>`)[0];
+            popup_bb3a9dd654fe4bac92ba3718ddd45ed2.setContent(html_0dcb1e8244e24be6a0052764d69c8461);
+        
+
+        marker_db7c1746819243ef99bbd5d83b36610d.bindPopup(popup_bb3a9dd654fe4bac92ba3718ddd45ed2)
+        ;
+
+        
+    
+    
+            var marker_0c8e8d139e1445a9a135e76d76278cd9 = L.marker(
+                [40.6145717, -73.6452839],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_8abcfda956d8453ab4db0fd104c299ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0c8e8d139e1445a9a135e76d76278cd9.setIcon(icon_8abcfda956d8453ab4db0fd104c299ca);
+        
+    
+        var popup_82dc8847cdaf4d5c94ce1793c5a13c8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_058d8894a5b240c88ed58855eb11a1db = $(`<div id="html_058d8894a5b240c88ed58855eb11a1db" style="width: 100.0%; height: 100.0%;">('General Construction', '$6,099,539')</div>`)[0];
+            popup_82dc8847cdaf4d5c94ce1793c5a13c8e.setContent(html_058d8894a5b240c88ed58855eb11a1db);
+        
+
+        marker_0c8e8d139e1445a9a135e76d76278cd9.bindPopup(popup_82dc8847cdaf4d5c94ce1793c5a13c8e)
+        ;
+
+        
+    
+    
+            var marker_b8dce64fe24d481787529531b31dc261 = L.marker(
+                [40.7468366, -73.9432589],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_34ef55a668974b189fa121bbdf562c2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b8dce64fe24d481787529531b31dc261.setIcon(icon_34ef55a668974b189fa121bbdf562c2b);
+        
+    
+        var popup_cc42d290b22d42caa91d96c5d154daa1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e65b7893c8b4e6884ed2357b9d4f9ee = $(`<div id="html_5e65b7893c8b4e6884ed2357b9d4f9ee" style="width: 100.0%; height: 100.0%;">('General Construction', '$6,999,986')</div>`)[0];
+            popup_cc42d290b22d42caa91d96c5d154daa1.setContent(html_5e65b7893c8b4e6884ed2357b9d4f9ee);
+        
+
+        marker_b8dce64fe24d481787529531b31dc261.bindPopup(popup_cc42d290b22d42caa91d96c5d154daa1)
+        ;
+
+        
+    
+    
+            var marker_685abf5f0f9648c0ac7229664e281903 = L.marker(
+                [40.77125355, -73.96709612136229],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_f810e47ad769457794b09fb5180e2c29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_685abf5f0f9648c0ac7229664e281903.setIcon(icon_f810e47ad769457794b09fb5180e2c29);
+        
+    
+        var popup_1deb878d7c064e04b3da203c72a488d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8600f94612bc41c99f88152041f09f00 = $(`<div id="html_8600f94612bc41c99f88152041f09f00" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$21,000,000')</div>`)[0];
+            popup_1deb878d7c064e04b3da203c72a488d1.setContent(html_8600f94612bc41c99f88152041f09f00);
+        
+
+        marker_685abf5f0f9648c0ac7229664e281903.bindPopup(popup_1deb878d7c064e04b3da203c72a488d1)
+        ;
+
+        
+    
+    
+            var marker_d9cf2ec9134844b18302a2f0f7e67472 = L.marker(
+                [40.741269450000004, -73.9873572760992],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_ac9fe1251f7d4f0b8df11c949f937835 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d9cf2ec9134844b18302a2f0f7e67472.setIcon(icon_ac9fe1251f7d4f0b8df11c949f937835);
+        
+    
+        var popup_7f826ff2783949e190172f097af4f2c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bd500f4caa145dfab422d471da20047 = $(`<div id="html_8bd500f4caa145dfab422d471da20047" style="width: 100.0%; height: 100.0%;">('Structural', '$109,200,000')</div>`)[0];
+            popup_7f826ff2783949e190172f097af4f2c3.setContent(html_8bd500f4caa145dfab422d471da20047);
+        
+
+        marker_d9cf2ec9134844b18302a2f0f7e67472.bindPopup(popup_7f826ff2783949e190172f097af4f2c3)
+        ;
+
+        
+    
+    
+            var marker_245c6504a5f34c8fb198b63ce24d1e63 = L.marker(
+                [40.70216825, -74.01203328856843],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_ba95597135cb4ea58b15e0e7d070f238 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_245c6504a5f34c8fb198b63ce24d1e63.setIcon(icon_ba95597135cb4ea58b15e0e7d070f238);
+        
+    
+        var popup_de863fef847f428fa33b1c3444d7a953 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_170f83874b0044a5b24a08ad853d6dae = $(`<div id="html_170f83874b0044a5b24a08ad853d6dae" style="width: 100.0%; height: 100.0%;">('General Construction', '$10,432,383')</div>`)[0];
+            popup_de863fef847f428fa33b1c3444d7a953.setContent(html_170f83874b0044a5b24a08ad853d6dae);
+        
+
+        marker_245c6504a5f34c8fb198b63ce24d1e63.bindPopup(popup_de863fef847f428fa33b1c3444d7a953)
+        ;
+
+        
+    
+    
+            var marker_6242ead2675341fe9c5b49c8e5e8a769 = L.marker(
+                [40.8931283, -73.8205375],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_e0ade40707bd40a8a0edf820fa255bcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6242ead2675341fe9c5b49c8e5e8a769.setIcon(icon_e0ade40707bd40a8a0edf820fa255bcc);
+        
+    
+        var popup_3e43975d9352483691b4e58adba85ee5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_110334e7e5cd47d1958e858c403edc1f = $(`<div id="html_110334e7e5cd47d1958e858c403edc1f" style="width: 100.0%; height: 100.0%;">('General Construction', '$16,633,949')</div>`)[0];
+            popup_3e43975d9352483691b4e58adba85ee5.setContent(html_110334e7e5cd47d1958e858c403edc1f);
+        
+
+        marker_6242ead2675341fe9c5b49c8e5e8a769.bindPopup(popup_3e43975d9352483691b4e58adba85ee5)
+        ;
+
+        
+    
+    
+            var marker_e5a76a52c0d84a3a997ea499d2cbf9dc = L.marker(
+                [40.77350505, -73.97887234911809],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_6f1fb15b7d54418c9a595250eabdaeea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e5a76a52c0d84a3a997ea499d2cbf9dc.setIcon(icon_6f1fb15b7d54418c9a595250eabdaeea);
+        
+    
+        var popup_fe422400ce0b423a9f6d7a6fafb2ae69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74757c06229843c0853eba96a78e7981 = $(`<div id="html_74757c06229843c0853eba96a78e7981" style="width: 100.0%; height: 100.0%;">('General Construction', '$5,200,000')</div>`)[0];
+            popup_fe422400ce0b423a9f6d7a6fafb2ae69.setContent(html_74757c06229843c0853eba96a78e7981);
+        
+
+        marker_e5a76a52c0d84a3a997ea499d2cbf9dc.bindPopup(popup_fe422400ce0b423a9f6d7a6fafb2ae69)
+        ;
+
+        
+    
+    
+            var marker_c45dd2f47fc34afba2ef75b2e10de54c = L.marker(
+                [40.7652979, -73.9718447],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_65f44729e07f4835bb5c3b5198922289 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c45dd2f47fc34afba2ef75b2e10de54c.setIcon(icon_65f44729e07f4835bb5c3b5198922289);
+        
+    
+        var popup_9858c70901594ff490df5319fcc96d29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0293855186ef44ebb2d488a816604f8b = $(`<div id="html_0293855186ef44ebb2d488a816604f8b" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$5,008,000')</div>`)[0];
+            popup_9858c70901594ff490df5319fcc96d29.setContent(html_0293855186ef44ebb2d488a816604f8b);
+        
+
+        marker_c45dd2f47fc34afba2ef75b2e10de54c.bindPopup(popup_9858c70901594ff490df5319fcc96d29)
+        ;
+
+        
+    
+    
+            var marker_92615ae396fc4791b9e240e244050b20 = L.marker(
+                [40.74635635, -73.98257652206097],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_c0dd6ef3cdf149da96ce327cabc41e0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_92615ae396fc4791b9e240e244050b20.setIcon(icon_c0dd6ef3cdf149da96ce327cabc41e0c);
+        
+    
+        var popup_a668e6280da94fa286fea7b9a80af853 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd4579083d7c4db7a3ba88a98bafe8e5 = $(`<div id="html_bd4579083d7c4db7a3ba88a98bafe8e5" style="width: 100.0%; height: 100.0%;">('General Construction', '$9,150,000')</div>`)[0];
+            popup_a668e6280da94fa286fea7b9a80af853.setContent(html_bd4579083d7c4db7a3ba88a98bafe8e5);
+        
+
+        marker_92615ae396fc4791b9e240e244050b20.bindPopup(popup_a668e6280da94fa286fea7b9a80af853)
+        ;
+
+        
+    
+    
+            var marker_baf08dab3eaa448794775b166dc50aba = L.marker(
+                [40.7499284, -73.9922321435069],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_e329ee35243348fab9ea8e2675c1271f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_baf08dab3eaa448794775b166dc50aba.setIcon(icon_e329ee35243348fab9ea8e2675c1271f);
+        
+    
+        var popup_5081294b6e9a42f295571b1867aee7bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9975bc44a88e45aaa6a8ca8fc294aac2 = $(`<div id="html_9975bc44a88e45aaa6a8ca8fc294aac2" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$22,815,324')</div>`)[0];
+            popup_5081294b6e9a42f295571b1867aee7bd.setContent(html_9975bc44a88e45aaa6a8ca8fc294aac2);
+        
+
+        marker_baf08dab3eaa448794775b166dc50aba.bindPopup(popup_5081294b6e9a42f295571b1867aee7bd)
+        ;
+
+        
+    
+    
+            var marker_f13cca2edb5d4032a84d1149d0884183 = L.marker(
+                [40.70408545, -74.0096105445594],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_2bad621c38c44dc1ba8eea65bc7d9aad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f13cca2edb5d4032a84d1149d0884183.setIcon(icon_2bad621c38c44dc1ba8eea65bc7d9aad);
+        
+    
+        var popup_516d9b9b3bfa4a6fa934ca342e823473 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e30131586e2f4a12b46a80b719c1db65 = $(`<div id="html_e30131586e2f4a12b46a80b719c1db65" style="width: 100.0%; height: 100.0%;">('General Construction', '$5,298,000')</div>`)[0];
+            popup_516d9b9b3bfa4a6fa934ca342e823473.setContent(html_e30131586e2f4a12b46a80b719c1db65);
+        
+
+        marker_f13cca2edb5d4032a84d1149d0884183.bindPopup(popup_516d9b9b3bfa4a6fa934ca342e823473)
+        ;
+
+        
+    
+    
+            var marker_5b732184df6744e5ad42e76722bcdadf = L.marker(
+                [40.50721178571428, -74.25454107142858],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_6c8413c1a7cd42a5be98481b826e8747 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5b732184df6744e5ad42e76722bcdadf.setIcon(icon_6c8413c1a7cd42a5be98481b826e8747);
+        
+    
+        var popup_2df7ca50acdf4c0c8fbe70ac90a8cd8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67bc56d478114d3dab0fe5c68c026e32 = $(`<div id="html_67bc56d478114d3dab0fe5c68c026e32" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$28,505,000')</div>`)[0];
+            popup_2df7ca50acdf4c0c8fbe70ac90a8cd8d.setContent(html_67bc56d478114d3dab0fe5c68c026e32);
+        
+
+        marker_5b732184df6744e5ad42e76722bcdadf.bindPopup(popup_2df7ca50acdf4c0c8fbe70ac90a8cd8d)
+        ;
+
+        
+    
+    
+            var marker_0c7ad431b1d241e7b917e9474f131b02 = L.marker(
+                [40.763835349999994, -73.97495327349418],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_3b19cc22a0474a0abb9552137cee3e29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0c7ad431b1d241e7b917e9474f131b02.setIcon(icon_3b19cc22a0474a0abb9552137cee3e29);
+        
+    
+        var popup_abeb4b3eaeec4922a0dc5e1a4814bd1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c6928fe7d654d70b3cbffe73fe37a09 = $(`<div id="html_4c6928fe7d654d70b3cbffe73fe37a09" style="width: 100.0%; height: 100.0%;">('General Construction', '$8,378,925')</div>`)[0];
+            popup_abeb4b3eaeec4922a0dc5e1a4814bd1b.setContent(html_4c6928fe7d654d70b3cbffe73fe37a09);
+        
+
+        marker_0c7ad431b1d241e7b917e9474f131b02.bindPopup(popup_abeb4b3eaeec4922a0dc5e1a4814bd1b)
+        ;
+
+        
+    
+    
+            var marker_2a6b9117808d41a8a6e503d5a79174d8 = L.marker(
+                [40.7682549, -73.9828519],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_3f9da668f16f4771b9cc938ca78ac89a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2a6b9117808d41a8a6e503d5a79174d8.setIcon(icon_3f9da668f16f4771b9cc938ca78ac89a);
+        
+    
+        var popup_2d8e6f02cbd4425abf35d8268355a402 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78285fe06adc44d8aff30a8c11825992 = $(`<div id="html_78285fe06adc44d8aff30a8c11825992" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$29,000,000')</div>`)[0];
+            popup_2d8e6f02cbd4425abf35d8268355a402.setContent(html_78285fe06adc44d8aff30a8c11825992);
+        
+
+        marker_2a6b9117808d41a8a6e503d5a79174d8.bindPopup(popup_2d8e6f02cbd4425abf35d8268355a402)
+        ;
+
+        
+    
+    
+            var marker_6f5d841320d843339d1729aa49d4ec36 = L.marker(
+                [40.74476765, -73.98612351936127],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_1bd98a6090244c18a371cb2da0aac31b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6f5d841320d843339d1729aa49d4ec36.setIcon(icon_1bd98a6090244c18a371cb2da0aac31b);
+        
+    
+        var popup_3ab32e0c0c9d4d2ebb17898da8e7b2b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1715252f5594ef6863bc105de293de9 = $(`<div id="html_c1715252f5594ef6863bc105de293de9" style="width: 100.0%; height: 100.0%;">('General Construction', '$18,358,200')</div>`)[0];
+            popup_3ab32e0c0c9d4d2ebb17898da8e7b2b5.setContent(html_c1715252f5594ef6863bc105de293de9);
+        
+
+        marker_6f5d841320d843339d1729aa49d4ec36.bindPopup(popup_3ab32e0c0c9d4d2ebb17898da8e7b2b5)
+        ;
+
+        
+    
+    
+            var marker_2723c7e73b8f4a88a0d25c2006541022 = L.marker(
+                [43.0726305, -73.78335194169665],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_439b2cbc305a47d8b1a5f8953c848ce2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2723c7e73b8f4a88a0d25c2006541022.setIcon(icon_439b2cbc305a47d8b1a5f8953c848ce2);
+        
+    
+        var popup_03a2d54ab5b2415ca2662abebff6ae21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43d532c4d7514dfe92c1e28c87eba350 = $(`<div id="html_43d532c4d7514dfe92c1e28c87eba350" style="width: 100.0%; height: 100.0%;">('General Construction', '$10,584,600')</div>`)[0];
+            popup_03a2d54ab5b2415ca2662abebff6ae21.setContent(html_43d532c4d7514dfe92c1e28c87eba350);
+        
+
+        marker_2723c7e73b8f4a88a0d25c2006541022.bindPopup(popup_03a2d54ab5b2415ca2662abebff6ae21)
+        ;
+
+        
+    
+    
+            var marker_7d8ec8a5b10d4b5c80e5f9b48bbf9d14 = L.marker(
+                [40.7415982, -73.9871904],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_8f41e90f228849a780b7d2bbc965476c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d8ec8a5b10d4b5c80e5f9b48bbf9d14.setIcon(icon_8f41e90f228849a780b7d2bbc965476c);
+        
+    
+        var popup_e15c720a58dc4ed3a07f9eb666a52361 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5e0665c62c842be942c6809731b9b82 = $(`<div id="html_c5e0665c62c842be942c6809731b9b82" style="width: 100.0%; height: 100.0%;">('General Construction', '$9,194,203')</div>`)[0];
+            popup_e15c720a58dc4ed3a07f9eb666a52361.setContent(html_c5e0665c62c842be942c6809731b9b82);
+        
+
+        marker_7d8ec8a5b10d4b5c80e5f9b48bbf9d14.bindPopup(popup_e15c720a58dc4ed3a07f9eb666a52361)
+        ;
+
+        
+    
+    
+            var marker_d1f1507277cb42a5bd9445d543464e58 = L.marker(
+                [40.7497169, -73.9929921],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_f6c2b9a7bb5e48208292a0159c77c2dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1f1507277cb42a5bd9445d543464e58.setIcon(icon_f6c2b9a7bb5e48208292a0159c77c2dd);
+        
+    
+        var popup_f53a68ee9085421187d3f73cc14d2e61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0f40bcceb1a46a089a75903d2ccee4a = $(`<div id="html_d0f40bcceb1a46a089a75903d2ccee4a" style="width: 100.0%; height: 100.0%;">('General Construction', '$28,000,000')</div>`)[0];
+            popup_f53a68ee9085421187d3f73cc14d2e61.setContent(html_d0f40bcceb1a46a089a75903d2ccee4a);
+        
+
+        marker_d1f1507277cb42a5bd9445d543464e58.bindPopup(popup_f53a68ee9085421187d3f73cc14d2e61)
+        ;
+
+        
+    
+    
+            var marker_f75483111cc54862a2525c1eca8a4c5a = L.marker(
+                [40.76806805, -73.90911749999998],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_c808abb065624cb58d0cba19214a5786 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f75483111cc54862a2525c1eca8a4c5a.setIcon(icon_c808abb065624cb58d0cba19214a5786);
+        
+    
+        var popup_8b89f8dd6cd541e6a4a871fc959aeb5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4b1c36128a14f4fa4e8552019f947a2 = $(`<div id="html_c4b1c36128a14f4fa4e8552019f947a2" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$6,870,205')</div>`)[0];
+            popup_8b89f8dd6cd541e6a4a871fc959aeb5f.setContent(html_c4b1c36128a14f4fa4e8552019f947a2);
+        
+
+        marker_f75483111cc54862a2525c1eca8a4c5a.bindPopup(popup_8b89f8dd6cd541e6a4a871fc959aeb5f)
+        ;
+
+        
+    
+    
+            var marker_5cf668a4aac845899c73c56ac6eac630 = L.marker(
+                [40.719981250000004, -73.99996465000001],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_9332d613d93440da9f9c5f96621fe25c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5cf668a4aac845899c73c56ac6eac630.setIcon(icon_9332d613d93440da9f9c5f96621fe25c);
+        
+    
+        var popup_77b30d7adb914ab4b8c9a6e7e942d29e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78b7b3f86a29489383d2dbb7acfd4c4b = $(`<div id="html_78b7b3f86a29489383d2dbb7acfd4c4b" style="width: 100.0%; height: 100.0%;">('General Construction', '$6,948,750')</div>`)[0];
+            popup_77b30d7adb914ab4b8c9a6e7e942d29e.setContent(html_78b7b3f86a29489383d2dbb7acfd4c4b);
+        
+
+        marker_5cf668a4aac845899c73c56ac6eac630.bindPopup(popup_77b30d7adb914ab4b8c9a6e7e942d29e)
+        ;
+
+        
+    
+    
+            var marker_577c56a926344487b31b5d9fa05193a8 = L.marker(
+                [40.70784945, -74.00898179042723],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_a61853cd1aca4fc7b28eae554f5cec05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_577c56a926344487b31b5d9fa05193a8.setIcon(icon_a61853cd1aca4fc7b28eae554f5cec05);
+        
+    
+        var popup_e1ca52d662c341529eb4aa824b449110 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e36fdfa2b97f4f83a93373d2918e753f = $(`<div id="html_e36fdfa2b97f4f83a93373d2918e753f" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$7,460,000')</div>`)[0];
+            popup_e1ca52d662c341529eb4aa824b449110.setContent(html_e36fdfa2b97f4f83a93373d2918e753f);
+        
+
+        marker_577c56a926344487b31b5d9fa05193a8.bindPopup(popup_e1ca52d662c341529eb4aa824b449110)
+        ;
+
+        
+    
+    
+            var marker_77831a93a50b4662a1567cfff1a3b088 = L.marker(
+                [40.7415271, -73.9375299],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_5d4874e28c404f89a163333e078b3a6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_77831a93a50b4662a1567cfff1a3b088.setIcon(icon_5d4874e28c404f89a163333e078b3a6f);
+        
+    
+        var popup_077245320f294b77b4b96ca9192a55a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d956aa5ca7ce4a199ad414a0ef14ee2b = $(`<div id="html_d956aa5ca7ce4a199ad414a0ef14ee2b" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$11,475,000')</div>`)[0];
+            popup_077245320f294b77b4b96ca9192a55a0.setContent(html_d956aa5ca7ce4a199ad414a0ef14ee2b);
+        
+
+        marker_77831a93a50b4662a1567cfff1a3b088.bindPopup(popup_077245320f294b77b4b96ca9192a55a0)
+        ;
+
+        
+    
+    
+            var marker_62d42c25f48d4082b2c1bc4a251eba38 = L.marker(
+                [40.75391085, -74.00053573096068],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_266d129aea944ef39e71bbd717c782a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_62d42c25f48d4082b2c1bc4a251eba38.setIcon(icon_266d129aea944ef39e71bbd717c782a9);
+        
+    
+        var popup_2f403eb87d0848cdbb14aeb0ee1068d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c75a7d9a6684e99bf6b7baf48c5073c = $(`<div id="html_3c75a7d9a6684e99bf6b7baf48c5073c" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$6,736,891')</div>`)[0];
+            popup_2f403eb87d0848cdbb14aeb0ee1068d3.setContent(html_3c75a7d9a6684e99bf6b7baf48c5073c);
+        
+
+        marker_62d42c25f48d4082b2c1bc4a251eba38.bindPopup(popup_2f403eb87d0848cdbb14aeb0ee1068d3)
+        ;
+
+        
+    
+    
+            var marker_a4d4d436b99548228423a862bf90eaff = L.marker(
+                [40.76087985, -73.97803991574585],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_00aa46f0277645a399c25fc23b4ef0d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a4d4d436b99548228423a862bf90eaff.setIcon(icon_00aa46f0277645a399c25fc23b4ef0d2);
+        
+    
+        var popup_391e1600c8b0449e8ddc9a213572a649 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebefbda897004566a4462b0be251d596 = $(`<div id="html_ebefbda897004566a4462b0be251d596" style="width: 100.0%; height: 100.0%;">('General Construction', '$6,919,869')</div>`)[0];
+            popup_391e1600c8b0449e8ddc9a213572a649.setContent(html_ebefbda897004566a4462b0be251d596);
+        
+
+        marker_a4d4d436b99548228423a862bf90eaff.bindPopup(popup_391e1600c8b0449e8ddc9a213572a649)
+        ;
+
+        
+    
+    
+            var marker_2e892fc71a6d40f4a8e0f5ee3c9f0124 = L.marker(
+                [40.7037615, -74.0086005],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_8856c4fa06c34da2b56d50804f1bb5dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2e892fc71a6d40f4a8e0f5ee3c9f0124.setIcon(icon_8856c4fa06c34da2b56d50804f1bb5dc);
+        
+    
+        var popup_21f910e7a6a447679996c5d5dce0ce69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55eec3acd4f1491ba85f18f2fe1c4db5 = $(`<div id="html_55eec3acd4f1491ba85f18f2fe1c4db5" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$5,019,019')</div>`)[0];
+            popup_21f910e7a6a447679996c5d5dce0ce69.setContent(html_55eec3acd4f1491ba85f18f2fe1c4db5);
+        
+
+        marker_2e892fc71a6d40f4a8e0f5ee3c9f0124.bindPopup(popup_21f910e7a6a447679996c5d5dce0ce69)
+        ;
+
+        
+    
+    
+            var marker_2fe9f5144784408a9d7f587354f2d2e8 = L.marker(
+                [40.7208124, -73.9910887],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_b8a8b09f506b4b6a9b23152e35e7e8cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2fe9f5144784408a9d7f587354f2d2e8.setIcon(icon_b8a8b09f506b4b6a9b23152e35e7e8cc);
+        
+    
+        var popup_47793700514749258588214c988d712a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31f5d4a5151040e4a7e182259f1ca8f6 = $(`<div id="html_31f5d4a5151040e4a7e182259f1ca8f6" style="width: 100.0%; height: 100.0%;">('Plumbing', '$8,315,436')</div>`)[0];
+            popup_47793700514749258588214c988d712a.setContent(html_31f5d4a5151040e4a7e182259f1ca8f6);
+        
+
+        marker_2fe9f5144784408a9d7f587354f2d2e8.bindPopup(popup_47793700514749258588214c988d712a)
+        ;
+
+        
+    
+    
+            var marker_c1a99b642ca340ae90f8268128abc02f = L.marker(
+                [40.6165489, -74.1007078239369],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_3718d81f17e04410aaa47c90a0ecdd22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_c1a99b642ca340ae90f8268128abc02f.setIcon(icon_3718d81f17e04410aaa47c90a0ecdd22);
+        
+    
+        var popup_761aba4783ba485f8a8676ac3cef896f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66e28332c8b945738f0895c226c3b7bf = $(`<div id="html_66e28332c8b945738f0895c226c3b7bf" style="width: 100.0%; height: 100.0%;">('Foundation', '$5,047,677')</div>`)[0];
+            popup_761aba4783ba485f8a8676ac3cef896f.setContent(html_66e28332c8b945738f0895c226c3b7bf);
+        
+
+        marker_c1a99b642ca340ae90f8268128abc02f.bindPopup(popup_761aba4783ba485f8a8676ac3cef896f)
+        ;
+
+        
+    
+    
+            var marker_b0445ac92c5346d98b212215093254ab = L.marker(
+                [40.759530299999994, -73.97865511690442],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_41b833b026684fd7b7f92f830fd30d2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0445ac92c5346d98b212215093254ab.setIcon(icon_41b833b026684fd7b7f92f830fd30d2a);
+        
+    
+        var popup_98beaa1c1a1b40268452f4d1f01bb8bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f48ff7e80c98442bb1d6d7a82fc72f48 = $(`<div id="html_f48ff7e80c98442bb1d6d7a82fc72f48" style="width: 100.0%; height: 100.0%;">('General Construction', '$11,845,849')</div>`)[0];
+            popup_98beaa1c1a1b40268452f4d1f01bb8bc.setContent(html_f48ff7e80c98442bb1d6d7a82fc72f48);
+        
+
+        marker_b0445ac92c5346d98b212215093254ab.bindPopup(popup_98beaa1c1a1b40268452f4d1f01bb8bc)
+        ;
+
+        
+    
+    
+            var marker_c1edc648d92742a295de18e2f4276045 = L.marker(
+                [40.7032255, -74.00906706900255],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_50f9a16cfbaf4d32994285b1147a8081 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c1edc648d92742a295de18e2f4276045.setIcon(icon_50f9a16cfbaf4d32994285b1147a8081);
+        
+    
+        var popup_d5153ac04b504ee4b0d5ccf715cd47f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_322785d4aa3d40a09552296e03dd03ec = $(`<div id="html_322785d4aa3d40a09552296e03dd03ec" style="width: 100.0%; height: 100.0%;">('General Construction', '$9,000,000')</div>`)[0];
+            popup_d5153ac04b504ee4b0d5ccf715cd47f3.setContent(html_322785d4aa3d40a09552296e03dd03ec);
+        
+
+        marker_c1edc648d92742a295de18e2f4276045.bindPopup(popup_d5153ac04b504ee4b0d5ccf715cd47f3)
+        ;
+
+        
+    
+    
+            var marker_6489c12b206f4f7f9821cae23e96957a = L.marker(
+                [40.678424, -73.99286057446568],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_9db9ac53d97b416b8de41157c8978785 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6489c12b206f4f7f9821cae23e96957a.setIcon(icon_9db9ac53d97b416b8de41157c8978785);
+        
+    
+        var popup_bf3dd820667d49b984798a1b74a14721 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bf190f1e63142c286cc36c8979a1262 = $(`<div id="html_2bf190f1e63142c286cc36c8979a1262" style="width: 100.0%; height: 100.0%;">('Supported Scaffold', '$6,400,000')</div>`)[0];
+            popup_bf3dd820667d49b984798a1b74a14721.setContent(html_2bf190f1e63142c286cc36c8979a1262);
+        
+
+        marker_6489c12b206f4f7f9821cae23e96957a.bindPopup(popup_bf3dd820667d49b984798a1b74a14721)
+        ;
+
+        
+    
+    
+            var marker_608f700040214466b6af3a00b559682d = L.marker(
+                [40.6510298, -74.0199808],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_1d43e1d860c94ccb80f69289e1b3bc11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_608f700040214466b6af3a00b559682d.setIcon(icon_1d43e1d860c94ccb80f69289e1b3bc11);
+        
+    
+        var popup_a4d865e4aaa8434298b14750124efcdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0731434b26304c338eaeb140845596c8 = $(`<div id="html_0731434b26304c338eaeb140845596c8" style="width: 100.0%; height: 100.0%;">('General Construction', '$5,161,200')</div>`)[0];
+            popup_a4d865e4aaa8434298b14750124efcdc.setContent(html_0731434b26304c338eaeb140845596c8);
+        
+
+        marker_608f700040214466b6af3a00b559682d.bindPopup(popup_a4d865e4aaa8434298b14750124efcdc)
+        ;
+
+        
+    
+    
+            var marker_b7eb99a6ef464b8688b41c2e3d1b8dab = L.marker(
+                [40.705347450000005, -74.01199398503422],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_89ad47d62b704ef9bb8788e4ab7c6e97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b7eb99a6ef464b8688b41c2e3d1b8dab.setIcon(icon_89ad47d62b704ef9bb8788e4ab7c6e97);
+        
+    
+        var popup_c8327806d1ef45729c1c92b5fdee140a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4bea32a1c574eb4b157f142d9eb46da = $(`<div id="html_c4bea32a1c574eb4b157f142d9eb46da" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$5,200,000')</div>`)[0];
+            popup_c8327806d1ef45729c1c92b5fdee140a.setContent(html_c4bea32a1c574eb4b157f142d9eb46da);
+        
+
+        marker_b7eb99a6ef464b8688b41c2e3d1b8dab.bindPopup(popup_c8327806d1ef45729c1c92b5fdee140a)
+        ;
+
+        
+    
+    
+            var marker_09be700783104e5f9cebb8f8f39f0675 = L.marker(
+                [40.737679400000005, -73.81534665159785],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_0a0aaee6ea8e4ea5a45dd76f8b2be2ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_09be700783104e5f9cebb8f8f39f0675.setIcon(icon_0a0aaee6ea8e4ea5a45dd76f8b2be2ae);
+        
+    
+        var popup_59e1563451d14662950c7c0281740276 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49d7fca55f2e4f37a9b991f2189fdc69 = $(`<div id="html_49d7fca55f2e4f37a9b991f2189fdc69" style="width: 100.0%; height: 100.0%;">('Boiler Equipment', '$10,000,000')</div>`)[0];
+            popup_59e1563451d14662950c7c0281740276.setContent(html_49d7fca55f2e4f37a9b991f2189fdc69);
+        
+
+        marker_09be700783104e5f9cebb8f8f39f0675.bindPopup(popup_59e1563451d14662950c7c0281740276)
+        ;
+
+        
+    
+    
+            var marker_b9adbb12f71743db9f05f2af74ecaa61 = L.marker(
+                [40.7552497, -73.99958174474746],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_453fe51c9a504c11a114dd59a2aa9cd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b9adbb12f71743db9f05f2af74ecaa61.setIcon(icon_453fe51c9a504c11a114dd59a2aa9cd8);
+        
+    
+        var popup_f1003f5102dd4b1e916b61bacaab1e82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9dc14eded6d45d1a6130218e8ea0c30 = $(`<div id="html_f9dc14eded6d45d1a6130218e8ea0c30" style="width: 100.0%; height: 100.0%;">('General Construction', '$44,492,156')</div>`)[0];
+            popup_f1003f5102dd4b1e916b61bacaab1e82.setContent(html_f9dc14eded6d45d1a6130218e8ea0c30);
+        
+
+        marker_b9adbb12f71743db9f05f2af74ecaa61.bindPopup(popup_f1003f5102dd4b1e916b61bacaab1e82)
+        ;
+
+        
+    
+    
+            var marker_fd27fdd5f2654085952435e8812ea507 = L.marker(
+                [40.87760403448276, -73.89087724137931],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_3c81bf53d0b6469a8b413b8aa6e83abd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fd27fdd5f2654085952435e8812ea507.setIcon(icon_3c81bf53d0b6469a8b413b8aa6e83abd);
+        
+    
+        var popup_01d44938a741459791e702a343467142 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_430c53556cab48b2b3a07171a61ffc98 = $(`<div id="html_430c53556cab48b2b3a07171a61ffc98" style="width: 100.0%; height: 100.0%;">('Structural', '$14,000,000')</div>`)[0];
+            popup_01d44938a741459791e702a343467142.setContent(html_430c53556cab48b2b3a07171a61ffc98);
+        
+
+        marker_fd27fdd5f2654085952435e8812ea507.bindPopup(popup_01d44938a741459791e702a343467142)
+        ;
+
+        
+    
+    
+            var marker_6f68271c656a4839ae94ba49d3e2588f = L.marker(
+                [42.7855506, -73.6624094],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_d888cb00041a4063bf777925281273a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_6f68271c656a4839ae94ba49d3e2588f.setIcon(icon_d888cb00041a4063bf777925281273a0);
+        
+    
+        var popup_169d05e696cd4b8bad0efeb61111cc0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_282fa7ac699047ce89017e63b3915632 = $(`<div id="html_282fa7ac699047ce89017e63b3915632" style="width: 100.0%; height: 100.0%;">('Foundation', '$8,000,000')</div>`)[0];
+            popup_169d05e696cd4b8bad0efeb61111cc0a.setContent(html_282fa7ac699047ce89017e63b3915632);
+        
+
+        marker_6f68271c656a4839ae94ba49d3e2588f.bindPopup(popup_169d05e696cd4b8bad0efeb61111cc0a)
+        ;
+
+        
+    
+    
+            var marker_be0edbbe2a274026933334ad6d45541b = L.marker(
+                [40.7178658, -73.80606565938834],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_40421c1b540f4315a382014132debf89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_be0edbbe2a274026933334ad6d45541b.setIcon(icon_40421c1b540f4315a382014132debf89);
+        
+    
+        var popup_0f5130f7209147858a34b55d2525b331 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22d080f6d9bb47ffb8a97ae6a7677598 = $(`<div id="html_22d080f6d9bb47ffb8a97ae6a7677598" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$9,780,054')</div>`)[0];
+            popup_0f5130f7209147858a34b55d2525b331.setContent(html_22d080f6d9bb47ffb8a97ae6a7677598);
+        
+
+        marker_be0edbbe2a274026933334ad6d45541b.bindPopup(popup_0f5130f7209147858a34b55d2525b331)
+        ;
+
+        
+    
+    
+            var marker_2ee9c0afff3f4a1a9a102aedb1b00afa = L.marker(
+                [40.701941250000004, -73.98572752858414],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_f3e2a2d90850450499e1020ef15e66ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2ee9c0afff3f4a1a9a102aedb1b00afa.setIcon(icon_f3e2a2d90850450499e1020ef15e66ba);
+        
+    
+        var popup_5d41d6c5ef6641bca05231daea47af49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8301f34b8e754aef9e12759e958dfb9e = $(`<div id="html_8301f34b8e754aef9e12759e958dfb9e" style="width: 100.0%; height: 100.0%;">('Supported Scaffold', '$30,000,000')</div>`)[0];
+            popup_5d41d6c5ef6641bca05231daea47af49.setContent(html_8301f34b8e754aef9e12759e958dfb9e);
+        
+
+        marker_2ee9c0afff3f4a1a9a102aedb1b00afa.bindPopup(popup_5d41d6c5ef6641bca05231daea47af49)
+        ;
+
+        
+    
+    
+            var marker_de1eae48bcb44120aab0de8228c90c65 = L.marker(
+                [40.69991335, -73.82813098850819],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_55c0468187724dc982e82f780f82843d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_de1eae48bcb44120aab0de8228c90c65.setIcon(icon_55c0468187724dc982e82f780f82843d);
+        
+    
+        var popup_44b769755fe449a993f42b5aa866d233 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_490a76ce61fb4f76a60fdc236b8d799f = $(`<div id="html_490a76ce61fb4f76a60fdc236b8d799f" style="width: 100.0%; height: 100.0%;">('Curb Cut', '$5,000,000')</div>`)[0];
+            popup_44b769755fe449a993f42b5aa866d233.setContent(html_490a76ce61fb4f76a60fdc236b8d799f);
+        
+
+        marker_de1eae48bcb44120aab0de8228c90c65.bindPopup(popup_44b769755fe449a993f42b5aa866d233)
+        ;
+
+        
+    
+    
+            var marker_95dfc69571344ada872903efe601e1e9 = L.marker(
+                [40.7035822, -73.80884],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_77feca2d6e514642b6a18cc714489dbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_95dfc69571344ada872903efe601e1e9.setIcon(icon_77feca2d6e514642b6a18cc714489dbb);
+        
+    
+        var popup_6c6c90470c9445cdb3517eab75bb283f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8f583571a984c279c4c5323d3d5d409 = $(`<div id="html_d8f583571a984c279c4c5323d3d5d409" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$5,000,000')</div>`)[0];
+            popup_6c6c90470c9445cdb3517eab75bb283f.setContent(html_d8f583571a984c279c4c5323d3d5d409);
+        
+
+        marker_95dfc69571344ada872903efe601e1e9.bindPopup(popup_6c6c90470c9445cdb3517eab75bb283f)
+        ;
+
+        
+    
+    
+            var marker_ad17479bcf9c4cebbe6b4d0314017f50 = L.marker(
+                [40.807712699999996, -73.93045279984295],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_06e6f49190ef4bb18b3b786dc5d2bf4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ad17479bcf9c4cebbe6b4d0314017f50.setIcon(icon_06e6f49190ef4bb18b3b786dc5d2bf4f);
+        
+    
+        var popup_8238e46876d04f05946bfa6ac734fc66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_088591995bc9492d87eb13cfdd60663c = $(`<div id="html_088591995bc9492d87eb13cfdd60663c" style="width: 100.0%; height: 100.0%;">('Supported Scaffold', '$10,000,000')</div>`)[0];
+            popup_8238e46876d04f05946bfa6ac734fc66.setContent(html_088591995bc9492d87eb13cfdd60663c);
+        
+
+        marker_ad17479bcf9c4cebbe6b4d0314017f50.bindPopup(popup_8238e46876d04f05946bfa6ac734fc66)
+        ;
+
+        
+    
+    
+            var marker_9709b560bb8f49c0bcfbbe05ef64137d = L.marker(
+                [40.762247099999996, -73.96947374876767],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_711d01415c78455e824732d247b41807 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9709b560bb8f49c0bcfbbe05ef64137d.setIcon(icon_711d01415c78455e824732d247b41807);
+        
+    
+        var popup_fe4ba6a0a9504e7abca6bee4b691308f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf93a8c384564473903c32dfb7edc7d9 = $(`<div id="html_bf93a8c384564473903c32dfb7edc7d9" style="width: 100.0%; height: 100.0%;">('General Construction', '$5,013,610')</div>`)[0];
+            popup_fe4ba6a0a9504e7abca6bee4b691308f.setContent(html_bf93a8c384564473903c32dfb7edc7d9);
+        
+
+        marker_9709b560bb8f49c0bcfbbe05ef64137d.bindPopup(popup_fe4ba6a0a9504e7abca6bee4b691308f)
+        ;
+
+        
+    
+    
+            var marker_a15b941cc91f4fb0a00554d8b7361566 = L.marker(
+                [40.7413853, -74.0032719036205],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_b62983128b0e42389fea409bc7b96cb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a15b941cc91f4fb0a00554d8b7361566.setIcon(icon_b62983128b0e42389fea409bc7b96cb8);
+        
+    
+        var popup_d3151e32fab043b6b3f9064259c40919 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce47da02210248fe865f9c676ded56de = $(`<div id="html_ce47da02210248fe865f9c676ded56de" style="width: 100.0%; height: 100.0%;">('General Construction', '$10,629,075')</div>`)[0];
+            popup_d3151e32fab043b6b3f9064259c40919.setContent(html_ce47da02210248fe865f9c676ded56de);
+        
+
+        marker_a15b941cc91f4fb0a00554d8b7361566.bindPopup(popup_d3151e32fab043b6b3f9064259c40919)
+        ;
+
+        
+    
+    
+            var marker_8ea559321dda4d93a4540f2cb87cb039 = L.marker(
+                [40.7042491, -74.00699980114659],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_035bd06b09964dc6b54486246d8485ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ea559321dda4d93a4540f2cb87cb039.setIcon(icon_035bd06b09964dc6b54486246d8485ce);
+        
+    
+        var popup_c52ded665fd24d1cbc7587510d985913 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cc8e93379f44dd5871e170c40754a85 = $(`<div id="html_3cc8e93379f44dd5871e170c40754a85" style="width: 100.0%; height: 100.0%;">('General Construction', '$7,250,000')</div>`)[0];
+            popup_c52ded665fd24d1cbc7587510d985913.setContent(html_3cc8e93379f44dd5871e170c40754a85);
+        
+
+        marker_8ea559321dda4d93a4540f2cb87cb039.bindPopup(popup_c52ded665fd24d1cbc7587510d985913)
+        ;
+
+        
+    
+    
+            var marker_8cb409886710484c8a66f319562a0d98 = L.marker(
+                [43.969725, -75.912554],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_57e54458383e47698bea29528137033b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8cb409886710484c8a66f319562a0d98.setIcon(icon_57e54458383e47698bea29528137033b);
+        
+    
+        var popup_018aa1890c914f6d8546abfb8e65e992 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_931b612f682b41cea96f9271c0df11b9 = $(`<div id="html_931b612f682b41cea96f9271c0df11b9" style="width: 100.0%; height: 100.0%;">('General Construction', '$5,719,456')</div>`)[0];
+            popup_018aa1890c914f6d8546abfb8e65e992.setContent(html_931b612f682b41cea96f9271c0df11b9);
+        
+
+        marker_8cb409886710484c8a66f319562a0d98.bindPopup(popup_018aa1890c914f6d8546abfb8e65e992)
+        ;
+
+        
+    
+    
+            var marker_195d0c7bdcf64a2ab65d223f0da767c3 = L.marker(
+                [40.7754475, -73.9878873],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_141cc8b239e340a9a9a68ba732e82173 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_195d0c7bdcf64a2ab65d223f0da767c3.setIcon(icon_141cc8b239e340a9a9a68ba732e82173);
+        
+    
+        var popup_3a0b7fb3feda45278c58c9979e321442 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aef59029ebf04a58833cbed666f8a3cf = $(`<div id="html_aef59029ebf04a58833cbed666f8a3cf" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$15,037,800')</div>`)[0];
+            popup_3a0b7fb3feda45278c58c9979e321442.setContent(html_aef59029ebf04a58833cbed666f8a3cf);
+        
+
+        marker_195d0c7bdcf64a2ab65d223f0da767c3.bindPopup(popup_3a0b7fb3feda45278c58c9979e321442)
+        ;
+
+        
+    
+    
+            var marker_71ccc6bf192946c79d3c2520cb81c476 = L.marker(
+                [40.7090822, -74.00649060092593],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_a840af2a4a3c4771a2ae9333d7bdf8d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_71ccc6bf192946c79d3c2520cb81c476.setIcon(icon_a840af2a4a3c4771a2ae9333d7bdf8d3);
+        
+    
+        var popup_097be33e785d49edb0c3aa49aa151c7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60c0e0ae8902468582cc37a43caf2bc3 = $(`<div id="html_60c0e0ae8902468582cc37a43caf2bc3" style="width: 100.0%; height: 100.0%;">('Supported Scaffold', '$35,000,000')</div>`)[0];
+            popup_097be33e785d49edb0c3aa49aa151c7e.setContent(html_60c0e0ae8902468582cc37a43caf2bc3);
+        
+
+        marker_71ccc6bf192946c79d3c2520cb81c476.bindPopup(popup_097be33e785d49edb0c3aa49aa151c7e)
+        ;
+
+        
+    
+    
+            var marker_01e67add8ad34065847750a2e170cbec = L.marker(
+                [40.764824, -73.9789137],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_2c5ac5026eba4db786925f132ffe3ece = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_01e67add8ad34065847750a2e170cbec.setIcon(icon_2c5ac5026eba4db786925f132ffe3ece);
+        
+    
+        var popup_2b6367df41f44b099212e0301e82c876 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ee7809439f349de9edfccd83b7b18ac = $(`<div id="html_3ee7809439f349de9edfccd83b7b18ac" style="width: 100.0%; height: 100.0%;">('General Construction', '$17,000,060')</div>`)[0];
+            popup_2b6367df41f44b099212e0301e82c876.setContent(html_3ee7809439f349de9edfccd83b7b18ac);
+        
+
+        marker_01e67add8ad34065847750a2e170cbec.bindPopup(popup_2b6367df41f44b099212e0301e82c876)
+        ;
+
+        
+    
+    
+            var marker_54644fa319af45eeb6b442c4c1a9f199 = L.marker(
+                [40.6584599, -73.93616395221812],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_93e8b2ff68f94876878ea6f6c5886394 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_54644fa319af45eeb6b442c4c1a9f199.setIcon(icon_93e8b2ff68f94876878ea6f6c5886394);
+        
+    
+        var popup_4983e3eddb6444838975d1237d481df2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a20043bafbd4f808b6a6f43404f7cab = $(`<div id="html_5a20043bafbd4f808b6a6f43404f7cab" style="width: 100.0%; height: 100.0%;">('General Construction', '$7,000,125')</div>`)[0];
+            popup_4983e3eddb6444838975d1237d481df2.setContent(html_5a20043bafbd4f808b6a6f43404f7cab);
+        
+
+        marker_54644fa319af45eeb6b442c4c1a9f199.bindPopup(popup_4983e3eddb6444838975d1237d481df2)
+        ;
+
+        
+    
+    
+            var marker_5a940121276649248fe252af2ab14d54 = L.marker(
+                [40.7740629, -73.9591915],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_5c22d0dec6334cff9eba55fb78989e86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5a940121276649248fe252af2ab14d54.setIcon(icon_5c22d0dec6334cff9eba55fb78989e86);
+        
+    
+        var popup_f7af265971ac4c3ebefe7bb05895afd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56fd767af99a42339183276e40130fd1 = $(`<div id="html_56fd767af99a42339183276e40130fd1" style="width: 100.0%; height: 100.0%;">('Supported Scaffold', '$6,500,000')</div>`)[0];
+            popup_f7af265971ac4c3ebefe7bb05895afd7.setContent(html_56fd767af99a42339183276e40130fd1);
+        
+
+        marker_5a940121276649248fe252af2ab14d54.bindPopup(popup_f7af265971ac4c3ebefe7bb05895afd7)
+        ;
+
+        
+    
+    
+            var marker_c0fb88c4678c40bb9af0cb0cef03a457 = L.marker(
+                [40.74075645, -73.98277897246314],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_447de1c98716402b9a5190751aa59331 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c0fb88c4678c40bb9af0cb0cef03a457.setIcon(icon_447de1c98716402b9a5190751aa59331);
+        
+    
+        var popup_33fdd1163f4a45cf9fb8007bc7afc8d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f110dfda1da34a159997b7f6bfe75e98 = $(`<div id="html_f110dfda1da34a159997b7f6bfe75e98" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$20,000,000')</div>`)[0];
+            popup_33fdd1163f4a45cf9fb8007bc7afc8d2.setContent(html_f110dfda1da34a159997b7f6bfe75e98);
+        
+
+        marker_c0fb88c4678c40bb9af0cb0cef03a457.bindPopup(popup_33fdd1163f4a45cf9fb8007bc7afc8d2)
+        ;
+
+        
+    
+    
+            var marker_0b5fb25ac7604820a41c9c42d1ef2d34 = L.marker(
+                [40.75540359183673, -73.98522536734694],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_c6ccb038a62847c8b5ecfdf11dfb37ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0b5fb25ac7604820a41c9c42d1ef2d34.setIcon(icon_c6ccb038a62847c8b5ecfdf11dfb37ef);
+        
+    
+        var popup_69a35f4739f348e6a9741f0a7f51d4b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_734d93a4cd9c41c9a8495acd640da1ad = $(`<div id="html_734d93a4cd9c41c9a8495acd640da1ad" style="width: 100.0%; height: 100.0%;">('General Construction', '$11,565,984')</div>`)[0];
+            popup_69a35f4739f348e6a9741f0a7f51d4b0.setContent(html_734d93a4cd9c41c9a8495acd640da1ad);
+        
+
+        marker_0b5fb25ac7604820a41c9c42d1ef2d34.bindPopup(popup_69a35f4739f348e6a9741f0a7f51d4b0)
+        ;
+
+        
+    
+    
+            var marker_3324764a330b478b97d9c802ebcc7284 = L.marker(
+                [40.8194151, -73.9502316],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_2857aaa528cb4e7b8406490c34aa42ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_3324764a330b478b97d9c802ebcc7284.setIcon(icon_2857aaa528cb4e7b8406490c34aa42ca);
+        
+    
+        var popup_544332dd678546d88eb3bbbb31c0b51e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9cae33d05f44aa9baf66eb0e7845473 = $(`<div id="html_d9cae33d05f44aa9baf66eb0e7845473" style="width: 100.0%; height: 100.0%;">('Boiler Equipment', '$5,000,000')</div>`)[0];
+            popup_544332dd678546d88eb3bbbb31c0b51e.setContent(html_d9cae33d05f44aa9baf66eb0e7845473);
+        
+
+        marker_3324764a330b478b97d9c802ebcc7284.bindPopup(popup_544332dd678546d88eb3bbbb31c0b51e)
+        ;
+
+        
+    
+    
+            var marker_525687fc9039455890966195e2adc8de = L.marker(
+                [40.7401567, -73.990825],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_71c11cb5398140118c92387aba201a34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_525687fc9039455890966195e2adc8de.setIcon(icon_71c11cb5398140118c92387aba201a34);
+        
+    
+        var popup_539bb99b785e4b008ec97f79e9f739d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_003e10207d714c168431d098c02570b7 = $(`<div id="html_003e10207d714c168431d098c02570b7" style="width: 100.0%; height: 100.0%;">('General Construction', '$6,493,774')</div>`)[0];
+            popup_539bb99b785e4b008ec97f79e9f739d0.setContent(html_003e10207d714c168431d098c02570b7);
+        
+
+        marker_525687fc9039455890966195e2adc8de.bindPopup(popup_539bb99b785e4b008ec97f79e9f739d0)
+        ;
+
+        
+    
+    
+            var marker_045a149f4c11483ba184986a5a674500 = L.marker(
+                [40.81819805, -73.95100897933364],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_4d98314d4a764629bed4f2c46bc9f7d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_045a149f4c11483ba184986a5a674500.setIcon(icon_4d98314d4a764629bed4f2c46bc9f7d3);
+        
+    
+        var popup_45d9206721cf429d84ed48a771a9dd24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9acf136a41ea4ab79a93f6b3ab21c8ac = $(`<div id="html_9acf136a41ea4ab79a93f6b3ab21c8ac" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$5,000,000')</div>`)[0];
+            popup_45d9206721cf429d84ed48a771a9dd24.setContent(html_9acf136a41ea4ab79a93f6b3ab21c8ac);
+        
+
+        marker_045a149f4c11483ba184986a5a674500.bindPopup(popup_45d9206721cf429d84ed48a771a9dd24)
+        ;
+
+        
+    
+    
+            var marker_2762242867a649979956b0c3d792a7e8 = L.marker(
+                [40.7767974, -73.9436359],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_ab13c9c75bde409485bc8f1ec0f1e19b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2762242867a649979956b0c3d792a7e8.setIcon(icon_ab13c9c75bde409485bc8f1ec0f1e19b);
+        
+    
+        var popup_798a1127388e4780b04dcc9812ed0d55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bf09dc3ba2e4e4998ede694b8e2b82d = $(`<div id="html_9bf09dc3ba2e4e4998ede694b8e2b82d" style="width: 100.0%; height: 100.0%;">('General Construction', '$6,500,000')</div>`)[0];
+            popup_798a1127388e4780b04dcc9812ed0d55.setContent(html_9bf09dc3ba2e4e4998ede694b8e2b82d);
+        
+
+        marker_2762242867a649979956b0c3d792a7e8.bindPopup(popup_798a1127388e4780b04dcc9812ed0d55)
+        ;
+
+        
+    
+    
+            var marker_6786ae70378d45b68dd79f9123449cb4 = L.marker(
+                [40.7172487, -74.0121804],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_f64731e3294c46dea92872b5691802e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6786ae70378d45b68dd79f9123449cb4.setIcon(icon_f64731e3294c46dea92872b5691802e0);
+        
+    
+        var popup_149160c206b74a568dd2c39c3fd6c693 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b04c16002e14b01975851393be812db = $(`<div id="html_9b04c16002e14b01975851393be812db" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$5,800,000')</div>`)[0];
+            popup_149160c206b74a568dd2c39c3fd6c693.setContent(html_9b04c16002e14b01975851393be812db);
+        
+
+        marker_6786ae70378d45b68dd79f9123449cb4.bindPopup(popup_149160c206b74a568dd2c39c3fd6c693)
+        ;
+
+        
+    
+    
+            var marker_4b38d16ba9db4a98b406a9b0e4ea7ed3 = L.marker(
+                [40.7147553, -74.01441859133114],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_5ce1071457d54b6b997146407b3a9e86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4b38d16ba9db4a98b406a9b0e4ea7ed3.setIcon(icon_5ce1071457d54b6b997146407b3a9e86);
+        
+    
+        var popup_331c02230af1402d93c8c58c14791ccc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18c251b61b584d049cea8ca66a1ec454 = $(`<div id="html_18c251b61b584d049cea8ca66a1ec454" style="width: 100.0%; height: 100.0%;">('General Construction', '$6,324,637')</div>`)[0];
+            popup_331c02230af1402d93c8c58c14791ccc.setContent(html_18c251b61b584d049cea8ca66a1ec454);
+        
+
+        marker_4b38d16ba9db4a98b406a9b0e4ea7ed3.bindPopup(popup_331c02230af1402d93c8c58c14791ccc)
+        ;
+
+        
+    
+    
+            var marker_a221413006fa4ab18a1e4b1bc3cbd9da = L.marker(
+                [40.75605515, -73.75751173433315],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_02c0ba1fbc984df1a69437e5d7facef2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a221413006fa4ab18a1e4b1bc3cbd9da.setIcon(icon_02c0ba1fbc984df1a69437e5d7facef2);
+        
+    
+        var popup_831aaec32c9f40ac86d25d78ac329ac8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d605cecd7c684729bf1b796dd6fcf0bb = $(`<div id="html_d605cecd7c684729bf1b796dd6fcf0bb" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$8,007,238')</div>`)[0];
+            popup_831aaec32c9f40ac86d25d78ac329ac8.setContent(html_d605cecd7c684729bf1b796dd6fcf0bb);
+        
+
+        marker_a221413006fa4ab18a1e4b1bc3cbd9da.bindPopup(popup_831aaec32c9f40ac86d25d78ac329ac8)
+        ;
+
+        
+    
+    
+            var marker_fcea7d36b1be477baca0a527b9ab1098 = L.marker(
+                [40.69160732653061, -73.98425859183673],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_37dd7ec4cb764edc8e14e0e9d68b2c56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_fcea7d36b1be477baca0a527b9ab1098.setIcon(icon_37dd7ec4cb764edc8e14e0e9d68b2c56);
+        
+    
+        var popup_d4ba0fc813e546a7b5bb42805ca10bf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cf100dca07e44a786d2912d35697dda = $(`<div id="html_2cf100dca07e44a786d2912d35697dda" style="width: 100.0%; height: 100.0%;">('Earth Work', '$8,600,623')</div>`)[0];
+            popup_d4ba0fc813e546a7b5bb42805ca10bf1.setContent(html_2cf100dca07e44a786d2912d35697dda);
+        
+
+        marker_fcea7d36b1be477baca0a527b9ab1098.bindPopup(popup_d4ba0fc813e546a7b5bb42805ca10bf1)
+        ;
+
+        
+    
+    
+            var marker_3bf290337ca34dbfa176b7137895a264 = L.marker(
+                [40.81703305, -73.92437016189787],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_6646b7f8752041068f7a8dcb0ac150fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_3bf290337ca34dbfa176b7137895a264.setIcon(icon_6646b7f8752041068f7a8dcb0ac150fb);
+        
+    
+        var popup_bf15cde41a5d4a36b05d9376e1276ac6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66c2fbfa430f411fbba9a3be37159c7d = $(`<div id="html_66c2fbfa430f411fbba9a3be37159c7d" style="width: 100.0%; height: 100.0%;">('Boiler Equipment', '$5,600,000')</div>`)[0];
+            popup_bf15cde41a5d4a36b05d9376e1276ac6.setContent(html_66c2fbfa430f411fbba9a3be37159c7d);
+        
+
+        marker_3bf290337ca34dbfa176b7137895a264.bindPopup(popup_bf15cde41a5d4a36b05d9376e1276ac6)
+        ;
+
+        
+    
+    
+            var marker_bfd3575c4a9d4bfaa3d0fbd38da0e5ba = L.marker(
+                [40.797985749999995, -73.97024581469944],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_2e9d1b8e512c4b5787f10cdfc1b706d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_bfd3575c4a9d4bfaa3d0fbd38da0e5ba.setIcon(icon_2e9d1b8e512c4b5787f10cdfc1b706d4);
+        
+    
+        var popup_9e485ff11d8947589e2f650495c8e569 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2507a5d4379433ba54d269978592a72 = $(`<div id="html_f2507a5d4379433ba54d269978592a72" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$5,000,000')</div>`)[0];
+            popup_9e485ff11d8947589e2f650495c8e569.setContent(html_f2507a5d4379433ba54d269978592a72);
+        
+
+        marker_bfd3575c4a9d4bfaa3d0fbd38da0e5ba.bindPopup(popup_9e485ff11d8947589e2f650495c8e569)
+        ;
+
+        
+    
+    
+            var marker_c755b235b552499d95f1a0caa00a5d7a = L.marker(
+                [40.7480813, -73.9951061],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_9d6fedcc5a614bbbbc68c5807a050f40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c755b235b552499d95f1a0caa00a5d7a.setIcon(icon_9d6fedcc5a614bbbbc68c5807a050f40);
+        
+    
+        var popup_0745fb5aee79425cb6ffe1ab8288a763 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41773c86c48a472da8f39028dc7c6c82 = $(`<div id="html_41773c86c48a472da8f39028dc7c6c82" style="width: 100.0%; height: 100.0%;">('Structural', '$25,801,580')</div>`)[0];
+            popup_0745fb5aee79425cb6ffe1ab8288a763.setContent(html_41773c86c48a472da8f39028dc7c6c82);
+        
+
+        marker_c755b235b552499d95f1a0caa00a5d7a.bindPopup(popup_0745fb5aee79425cb6ffe1ab8288a763)
+        ;
+
+        
+    
+    
+            var marker_90fb40af7d02478786b8654310038158 = L.marker(
+                [40.7379953, -73.9876977],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_7889e637df0b4435927bf639464a296a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_90fb40af7d02478786b8654310038158.setIcon(icon_7889e637df0b4435927bf639464a296a);
+        
+    
+        var popup_5accdb3fc0394bda844e7de197935770 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8b556355ec44bd6a393282d8fe35da3 = $(`<div id="html_f8b556355ec44bd6a393282d8fe35da3" style="width: 100.0%; height: 100.0%;">('General Construction', '$8,498,699')</div>`)[0];
+            popup_5accdb3fc0394bda844e7de197935770.setContent(html_f8b556355ec44bd6a393282d8fe35da3);
+        
+
+        marker_90fb40af7d02478786b8654310038158.bindPopup(popup_5accdb3fc0394bda844e7de197935770)
+        ;
+
+        
+    
+    
+            var marker_7a35587a48694054a200df832dc8dac2 = L.marker(
+                [40.71400065, -74.0158798080181],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_d617a32950314039a131be7ff42f5cf4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7a35587a48694054a200df832dc8dac2.setIcon(icon_d617a32950314039a131be7ff42f5cf4);
+        
+    
+        var popup_2776326a1f0849e5aa9997c77c7b0e0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69df7f6a43ee40ea827b5e9c069ac389 = $(`<div id="html_69df7f6a43ee40ea827b5e9c069ac389" style="width: 100.0%; height: 100.0%;">('General Construction', '$9,367,569')</div>`)[0];
+            popup_2776326a1f0849e5aa9997c77c7b0e0a.setContent(html_69df7f6a43ee40ea827b5e9c069ac389);
+        
+
+        marker_7a35587a48694054a200df832dc8dac2.bindPopup(popup_2776326a1f0849e5aa9997c77c7b0e0a)
+        ;
+
+        
+    
+    
+            var marker_d43a294c8e8b4b7b980f42ebc200192f = L.marker(
+                [40.7286994, -73.9957151],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_05074d0527ce459d92265300daead98a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d43a294c8e8b4b7b980f42ebc200192f.setIcon(icon_05074d0527ce459d92265300daead98a);
+        
+    
+        var popup_c43a6b3ba6ae46fc9fb6c07253762e22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ad0f024414f45c8bdb880e44800fede = $(`<div id="html_5ad0f024414f45c8bdb880e44800fede" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$6,000,000')</div>`)[0];
+            popup_c43a6b3ba6ae46fc9fb6c07253762e22.setContent(html_5ad0f024414f45c8bdb880e44800fede);
+        
+
+        marker_d43a294c8e8b4b7b980f42ebc200192f.bindPopup(popup_c43a6b3ba6ae46fc9fb6c07253762e22)
+        ;
+
+        
+    
+    
+            var marker_22ce2a6f2f884c38b55c1b4a3b4b0af0 = L.marker(
+                [40.7391446, -73.9874348],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_cddd45e32ab7495aa43690b95c4b8fbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_22ce2a6f2f884c38b55c1b4a3b4b0af0.setIcon(icon_cddd45e32ab7495aa43690b95c4b8fbc);
+        
+    
+        var popup_595bf8f5c4304b929f79e26be0eefd95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d00f8e9b5a24cc79fe22da644cb49c9 = $(`<div id="html_8d00f8e9b5a24cc79fe22da644cb49c9" style="width: 100.0%; height: 100.0%;">('General Construction', '$5,933,000')</div>`)[0];
+            popup_595bf8f5c4304b929f79e26be0eefd95.setContent(html_8d00f8e9b5a24cc79fe22da644cb49c9);
+        
+
+        marker_22ce2a6f2f884c38b55c1b4a3b4b0af0.bindPopup(popup_595bf8f5c4304b929f79e26be0eefd95)
+        ;
+
+        
+    
+    
+            var marker_78bfe99b568d41ee963d9762d9a20223 = L.marker(
+                [40.71575217647059, -73.96642629411765],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_7d176170cb3141629e275df1dbff66a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_78bfe99b568d41ee963d9762d9a20223.setIcon(icon_7d176170cb3141629e275df1dbff66a1);
+        
+    
+        var popup_6495239f72d748f4a9117ed57ea5bba2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d4f18087a244139853d1fe1ef6841e5 = $(`<div id="html_7d4f18087a244139853d1fe1ef6841e5" style="width: 100.0%; height: 100.0%;">('Structural', '$10,000,000')</div>`)[0];
+            popup_6495239f72d748f4a9117ed57ea5bba2.setContent(html_7d4f18087a244139853d1fe1ef6841e5);
+        
+
+        marker_78bfe99b568d41ee963d9762d9a20223.bindPopup(popup_6495239f72d748f4a9117ed57ea5bba2)
+        ;
+
+        
+    
+    
+            var marker_b8d9bc06aacf4662b5ed10faa98d3c48 = L.marker(
+                [40.740785, -73.986053],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_96f44bfa502940159871b5129369112a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b8d9bc06aacf4662b5ed10faa98d3c48.setIcon(icon_96f44bfa502940159871b5129369112a);
+        
+    
+        var popup_e71732d5328145779fcf8179b3ef90d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e267d2cd29414da4a6225521a0e39293 = $(`<div id="html_e267d2cd29414da4a6225521a0e39293" style="width: 100.0%; height: 100.0%;">('General Construction', '$18,890,008')</div>`)[0];
+            popup_e71732d5328145779fcf8179b3ef90d9.setContent(html_e267d2cd29414da4a6225521a0e39293);
+        
+
+        marker_b8d9bc06aacf4662b5ed10faa98d3c48.bindPopup(popup_e71732d5328145779fcf8179b3ef90d9)
+        ;
+
+        
+    
+    
+            var marker_3e867fe38fec46d79e92dee3c4cc32e4 = L.marker(
+                [40.6763323, -73.9882201],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_f9618c9e34344cfea74ecbe1f1028333 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3e867fe38fec46d79e92dee3c4cc32e4.setIcon(icon_f9618c9e34344cfea74ecbe1f1028333);
+        
+    
+        var popup_1cfcf4aff6194d1895c849e4d4ec591f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2151fcd8a8aa4f43a1a857fe0df86162 = $(`<div id="html_2151fcd8a8aa4f43a1a857fe0df86162" style="width: 100.0%; height: 100.0%;">('Supported Scaffold', '$13,494,000')</div>`)[0];
+            popup_1cfcf4aff6194d1895c849e4d4ec591f.setContent(html_2151fcd8a8aa4f43a1a857fe0df86162);
+        
+
+        marker_3e867fe38fec46d79e92dee3c4cc32e4.bindPopup(popup_1cfcf4aff6194d1895c849e4d4ec591f)
+        ;
+
+        
+    
+    
+            var marker_8ed86a586fd64cf18cbdafbc684ecd22 = L.marker(
+                [40.75749775, -73.99160844386793],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_f07275fbbf20452fb2f96899ff781991 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8ed86a586fd64cf18cbdafbc684ecd22.setIcon(icon_f07275fbbf20452fb2f96899ff781991);
+        
+    
+        var popup_ec5e8911ae744f409f4fd1e52f897729 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d42be2a8db294ea795e480ec98dfe5ee = $(`<div id="html_d42be2a8db294ea795e480ec98dfe5ee" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$5,136,557')</div>`)[0];
+            popup_ec5e8911ae744f409f4fd1e52f897729.setContent(html_d42be2a8db294ea795e480ec98dfe5ee);
+        
+
+        marker_8ed86a586fd64cf18cbdafbc684ecd22.bindPopup(popup_ec5e8911ae744f409f4fd1e52f897729)
+        ;
+
+        
+    
+    
+            var marker_149c6535ade349858c769c843da4ffd2 = L.marker(
+                [40.689178600000005, -73.96175417124209],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_ac9f6be6f5da4c91a23f06a8d27e0d99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_149c6535ade349858c769c843da4ffd2.setIcon(icon_ac9f6be6f5da4c91a23f06a8d27e0d99);
+        
+    
+        var popup_6f1e9bb677554b57913c9ac07d5aedea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_216426adbeae4bcfb094842b06786918 = $(`<div id="html_216426adbeae4bcfb094842b06786918" style="width: 100.0%; height: 100.0%;">('Plumbing', '$5,850,900')</div>`)[0];
+            popup_6f1e9bb677554b57913c9ac07d5aedea.setContent(html_216426adbeae4bcfb094842b06786918);
+        
+
+        marker_149c6535ade349858c769c843da4ffd2.bindPopup(popup_6f1e9bb677554b57913c9ac07d5aedea)
+        ;
+
+        
+    
+    
+            var marker_cb7695c040854796ae507a3c8e88f546 = L.marker(
+                [40.7506257, -73.9985278],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_36b6e67e77b042b1bd8531347ac2ff1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cb7695c040854796ae507a3c8e88f546.setIcon(icon_36b6e67e77b042b1bd8531347ac2ff1f);
+        
+    
+        var popup_3833a52ad6e54bc7b5dc4c11c13c2820 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6815b16618c4cb4a27bd4dbc74dd973 = $(`<div id="html_d6815b16618c4cb4a27bd4dbc74dd973" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$13,183,890')</div>`)[0];
+            popup_3833a52ad6e54bc7b5dc4c11c13c2820.setContent(html_d6815b16618c4cb4a27bd4dbc74dd973);
+        
+
+        marker_cb7695c040854796ae507a3c8e88f546.bindPopup(popup_3833a52ad6e54bc7b5dc4c11c13c2820)
+        ;
+
+        
+    
+    
+            var marker_3168d0d520784b4f8ed2778a7b4e6607 = L.marker(
+                [40.7418061, -73.9846404],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_a8eea5360a144f358dfa6dc3bd0f028a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3168d0d520784b4f8ed2778a7b4e6607.setIcon(icon_a8eea5360a144f358dfa6dc3bd0f028a);
+        
+    
+        var popup_49cd474660ca4f2ea118be64ee91f6d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd75e801210245569948cd855b0827d6 = $(`<div id="html_dd75e801210245569948cd855b0827d6" style="width: 100.0%; height: 100.0%;">('General Construction', '$7,474,875')</div>`)[0];
+            popup_49cd474660ca4f2ea118be64ee91f6d8.setContent(html_dd75e801210245569948cd855b0827d6);
+        
+
+        marker_3168d0d520784b4f8ed2778a7b4e6607.bindPopup(popup_49cd474660ca4f2ea118be64ee91f6d8)
+        ;
+
+        
+    
+    
+            var marker_88a719a0e7c541a39f24de0163dc5b1e = L.marker(
+                [41.103338, -72.36599679591836],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_d4eb00dc8fae4aad841776eef67c6db9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_88a719a0e7c541a39f24de0163dc5b1e.setIcon(icon_d4eb00dc8fae4aad841776eef67c6db9);
+        
+    
+        var popup_0a55d6bce5194adbb1cbe8a84810e31b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e08948fde6e4de4b510a73cac64a3e0 = $(`<div id="html_5e08948fde6e4de4b510a73cac64a3e0" style="width: 100.0%; height: 100.0%;">('General Construction', '$12,500,000')</div>`)[0];
+            popup_0a55d6bce5194adbb1cbe8a84810e31b.setContent(html_5e08948fde6e4de4b510a73cac64a3e0);
+        
+
+        marker_88a719a0e7c541a39f24de0163dc5b1e.bindPopup(popup_0a55d6bce5194adbb1cbe8a84810e31b)
+        ;
+
+        
+    
+    
+            var marker_ac0a5945a6fd446a8ec3fe79448e694f = L.marker(
+                [40.855245499999995, -73.83629771285067],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_ddabe3bccc18463f80528fa6b2f56368 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ac0a5945a6fd446a8ec3fe79448e694f.setIcon(icon_ddabe3bccc18463f80528fa6b2f56368);
+        
+    
+        var popup_a467f12fc1b9460683f410d4b2eb8f2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac5d912120974bd1baae377a94353e47 = $(`<div id="html_ac5d912120974bd1baae377a94353e47" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$5,500,000')</div>`)[0];
+            popup_a467f12fc1b9460683f410d4b2eb8f2c.setContent(html_ac5d912120974bd1baae377a94353e47);
+        
+
+        marker_ac0a5945a6fd446a8ec3fe79448e694f.bindPopup(popup_a467f12fc1b9460683f410d4b2eb8f2c)
+        ;
+
+        
+    
+    
+            var marker_6e62d33281224191b430298c01e15e76 = L.marker(
+                [40.7581003, -73.9739104],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_51d2dbe1e02d450781f30b028f027241 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e62d33281224191b430298c01e15e76.setIcon(icon_51d2dbe1e02d450781f30b028f027241);
+        
+    
+        var popup_9d94c74ac4e94196bd2190a1b81517f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71f3354be11e4ef2ac4937ad5adf2a55 = $(`<div id="html_71f3354be11e4ef2ac4937ad5adf2a55" style="width: 100.0%; height: 100.0%;">('General Construction', '$7,820,000')</div>`)[0];
+            popup_9d94c74ac4e94196bd2190a1b81517f4.setContent(html_71f3354be11e4ef2ac4937ad5adf2a55);
+        
+
+        marker_6e62d33281224191b430298c01e15e76.bindPopup(popup_9d94c74ac4e94196bd2190a1b81517f4)
+        ;
+
+        
+    
+    
+            var marker_7599843417f14187867043f22ae4ee5e = L.marker(
+                [40.7833352, -73.9813817],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_f6fe788d26c149e1ab8cdc536713eacc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7599843417f14187867043f22ae4ee5e.setIcon(icon_f6fe788d26c149e1ab8cdc536713eacc);
+        
+    
+        var popup_3f88d36bafff41c9ae7075d8d84e8280 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b5dda137de74c22a39da3d644e8f20c = $(`<div id="html_3b5dda137de74c22a39da3d644e8f20c" style="width: 100.0%; height: 100.0%;">('Supported Scaffold', '$8,000,000')</div>`)[0];
+            popup_3f88d36bafff41c9ae7075d8d84e8280.setContent(html_3b5dda137de74c22a39da3d644e8f20c);
+        
+
+        marker_7599843417f14187867043f22ae4ee5e.bindPopup(popup_3f88d36bafff41c9ae7075d8d84e8280)
+        ;
+
+        
+    
+    
+            var marker_f005c0eb0d7e4e00b2ef053b3fb0ecd7 = L.marker(
+                [40.72848625, -74.00790390636965],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_ee6b700c7147428e9b02f83fd7e48546 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f005c0eb0d7e4e00b2ef053b3fb0ecd7.setIcon(icon_ee6b700c7147428e9b02f83fd7e48546);
+        
+    
+        var popup_db60f83e66cc47bfa82369d20b69397c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc735ee97141481a9dfe1ffc4c5202a8 = $(`<div id="html_cc735ee97141481a9dfe1ffc4c5202a8" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$6,000,000')</div>`)[0];
+            popup_db60f83e66cc47bfa82369d20b69397c.setContent(html_cc735ee97141481a9dfe1ffc4c5202a8);
+        
+
+        marker_f005c0eb0d7e4e00b2ef053b3fb0ecd7.bindPopup(popup_db60f83e66cc47bfa82369d20b69397c)
+        ;
+
+        
+    
+    
+            var marker_6436c4af5cdd4968a97273722c5c11da = L.marker(
+                [40.74237681818182, -73.98464472727272],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_112536eb53434486b57449521663723a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6436c4af5cdd4968a97273722c5c11da.setIcon(icon_112536eb53434486b57449521663723a);
+        
+    
+        var popup_1fc6f3b71fc941d6b384c2a27a5fa8bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1b17ca5f3784da3b4d13be64004fb0b = $(`<div id="html_a1b17ca5f3784da3b4d13be64004fb0b" style="width: 100.0%; height: 100.0%;">('General Construction', '$5,000,000')</div>`)[0];
+            popup_1fc6f3b71fc941d6b384c2a27a5fa8bd.setContent(html_a1b17ca5f3784da3b4d13be64004fb0b);
+        
+
+        marker_6436c4af5cdd4968a97273722c5c11da.bindPopup(popup_1fc6f3b71fc941d6b384c2a27a5fa8bd)
+        ;
+
+        
+    
+    
+            var marker_16ae9760cd7445ba8c67b700ac2754b9 = L.marker(
+                [40.69279, -73.9878959967973],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_4b140a559de242a19305c07774294c80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_16ae9760cd7445ba8c67b700ac2754b9.setIcon(icon_4b140a559de242a19305c07774294c80);
+        
+    
+        var popup_1cf6a1066949444dac74128dc3043a35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8fcf266aa604544b2bf5584105929b9 = $(`<div id="html_c8fcf266aa604544b2bf5584105929b9" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$6,239,858')</div>`)[0];
+            popup_1cf6a1066949444dac74128dc3043a35.setContent(html_c8fcf266aa604544b2bf5584105929b9);
+        
+
+        marker_16ae9760cd7445ba8c67b700ac2754b9.bindPopup(popup_1cf6a1066949444dac74128dc3043a35)
+        ;
+
+        
+    
+    
+            var marker_3e29c497148e4c12a06235614b5ca765 = L.marker(
+                [40.6848399, -73.9440726],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_378d9f7cc1504e03af9203391d627c6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3e29c497148e4c12a06235614b5ca765.setIcon(icon_378d9f7cc1504e03af9203391d627c6e);
+        
+    
+        var popup_e8f59aa97730480cbdd0c0f429da5ffa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18ead0b5cdd441cb9bff8e2a4b47c47b = $(`<div id="html_18ead0b5cdd441cb9bff8e2a4b47c47b" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$5,220,384')</div>`)[0];
+            popup_e8f59aa97730480cbdd0c0f429da5ffa.setContent(html_18ead0b5cdd441cb9bff8e2a4b47c47b);
+        
+
+        marker_3e29c497148e4c12a06235614b5ca765.bindPopup(popup_e8f59aa97730480cbdd0c0f429da5ffa)
+        ;
+
+        
+    
+    
+            var marker_79136ef09bb043a68c3653063b1a23a5 = L.marker(
+                [40.759577300000004, -73.97268796328697],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_3909738481a949bbaade00a2914d26bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_79136ef09bb043a68c3653063b1a23a5.setIcon(icon_3909738481a949bbaade00a2914d26bc);
+        
+    
+        var popup_d8814e679ad04406aa465bc04a05e96c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_385d15cc1e804b108c950c783819b8cc = $(`<div id="html_385d15cc1e804b108c950c783819b8cc" style="width: 100.0%; height: 100.0%;">('General Construction', '$10,000,000')</div>`)[0];
+            popup_d8814e679ad04406aa465bc04a05e96c.setContent(html_385d15cc1e804b108c950c783819b8cc);
+        
+
+        marker_79136ef09bb043a68c3653063b1a23a5.bindPopup(popup_d8814e679ad04406aa465bc04a05e96c)
+        ;
+
+        
+    
+    
+            var marker_e6ad9f614dc84c8788877eae20e308a9 = L.marker(
+                [40.752711, -73.996985],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_f09f12cd36bd46fe879ec157fbe31276 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e6ad9f614dc84c8788877eae20e308a9.setIcon(icon_f09f12cd36bd46fe879ec157fbe31276);
+        
+    
+        var popup_1e98f06ac3834121a17c77529adfbf11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f281819dbf42407993ca0ca5d7c2859d = $(`<div id="html_f281819dbf42407993ca0ca5d7c2859d" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$6,365,000')</div>`)[0];
+            popup_1e98f06ac3834121a17c77529adfbf11.setContent(html_f281819dbf42407993ca0ca5d7c2859d);
+        
+
+        marker_e6ad9f614dc84c8788877eae20e308a9.bindPopup(popup_1e98f06ac3834121a17c77529adfbf11)
+        ;
+
+        
+    
+    
+            var marker_0137c33bf25541619d787fa41279c0ba = L.marker(
+                [40.749675100000005, -73.99052472856631],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_fb4f0c0722bb464c89cb9b46e728307d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0137c33bf25541619d787fa41279c0ba.setIcon(icon_fb4f0c0722bb464c89cb9b46e728307d);
+        
+    
+        var popup_79df3ee5e51147b68b060e2ae3db62e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8619468b10604648934d21ffb358c3d7 = $(`<div id="html_8619468b10604648934d21ffb358c3d7" style="width: 100.0%; height: 100.0%;">('General Construction', '$11,700,000')</div>`)[0];
+            popup_79df3ee5e51147b68b060e2ae3db62e1.setContent(html_8619468b10604648934d21ffb358c3d7);
+        
+
+        marker_0137c33bf25541619d787fa41279c0ba.bindPopup(popup_79df3ee5e51147b68b060e2ae3db62e1)
+        ;
+
+        
+    
+    
+            var marker_4f901f862b064c729c817aa4e2454971 = L.marker(
+                [42.7921135, -73.9475849],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_ef528037079b4e56aeeebd0fa1f7252b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4f901f862b064c729c817aa4e2454971.setIcon(icon_ef528037079b4e56aeeebd0fa1f7252b);
+        
+    
+        var popup_b9a0acbcbb2a45dd8512c2ca2be11a33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fced384a9efa4736a068d86a28f1890e = $(`<div id="html_fced384a9efa4736a068d86a28f1890e" style="width: 100.0%; height: 100.0%;">('General Construction', '$69,985,407')</div>`)[0];
+            popup_b9a0acbcbb2a45dd8512c2ca2be11a33.setContent(html_fced384a9efa4736a068d86a28f1890e);
+        
+
+        marker_4f901f862b064c729c817aa4e2454971.bindPopup(popup_b9a0acbcbb2a45dd8512c2ca2be11a33)
+        ;
+
+        
+    
+    
+            var marker_2d4a427c4db74f68a8f5e1c992f2a077 = L.marker(
+                [40.6827658, -73.9890606],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_95edacbb66cf4ea1a50f65f9ae21d5c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_2d4a427c4db74f68a8f5e1c992f2a077.setIcon(icon_95edacbb66cf4ea1a50f65f9ae21d5c2);
+        
+    
+        var popup_da94a3bb10b7436d8ed3f41af7a3d05b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18b69acc26624ea2b7ce64517248b81f = $(`<div id="html_18b69acc26624ea2b7ce64517248b81f" style="width: 100.0%; height: 100.0%;">('Sidewalk Shed', '$40,000,000')</div>`)[0];
+            popup_da94a3bb10b7436d8ed3f41af7a3d05b.setContent(html_18b69acc26624ea2b7ce64517248b81f);
+        
+
+        marker_2d4a427c4db74f68a8f5e1c992f2a077.bindPopup(popup_da94a3bb10b7436d8ed3f41af7a3d05b)
+        ;
+
+        
+    
+    
+            var marker_c50b9e8c5aef4af380202b68121e15d3 = L.marker(
+                [42.711020399999995, -73.70982904316494],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_bf27b08f42ab41e2bc413df91ca05767 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c50b9e8c5aef4af380202b68121e15d3.setIcon(icon_bf27b08f42ab41e2bc413df91ca05767);
+        
+    
+        var popup_1d984b61369549b1a2683db9ce7b8614 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2eb1b0ad959240b398eece5b1adb649a = $(`<div id="html_2eb1b0ad959240b398eece5b1adb649a" style="width: 100.0%; height: 100.0%;">('General Construction', '$20,508,292')</div>`)[0];
+            popup_1d984b61369549b1a2683db9ce7b8614.setContent(html_2eb1b0ad959240b398eece5b1adb649a);
+        
+
+        marker_c50b9e8c5aef4af380202b68121e15d3.bindPopup(popup_1d984b61369549b1a2683db9ce7b8614)
+        ;
+
+        
+    
+    
+            var marker_810de94a2bc1495390930ef5d096b8a1 = L.marker(
+                [40.6906239, -73.9857017],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_36c6abd318064715a5fa5ef51e89f0d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_810de94a2bc1495390930ef5d096b8a1.setIcon(icon_36c6abd318064715a5fa5ef51e89f0d2);
+        
+    
+        var popup_f41c2502df2847e3a6faf65ac7145a87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e81fdd4eb5624505a5d91aa3b9d687d2 = $(`<div id="html_e81fdd4eb5624505a5d91aa3b9d687d2" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$10,480,593')</div>`)[0];
+            popup_f41c2502df2847e3a6faf65ac7145a87.setContent(html_e81fdd4eb5624505a5d91aa3b9d687d2);
+        
+
+        marker_810de94a2bc1495390930ef5d096b8a1.bindPopup(popup_f41c2502df2847e3a6faf65ac7145a87)
+        ;
+
+        
+    
+    
+            var marker_6a68557ced614f68991f99261de29a39 = L.marker(
+                [40.7440149, -73.9833257],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_645f522fa911423b9fff14d018fd30fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6a68557ced614f68991f99261de29a39.setIcon(icon_645f522fa911423b9fff14d018fd30fd);
+        
+    
+        var popup_c7e267c2c358423b8a45a5c0331d97b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11d4aa78ffe7441e93ad4f855970bde4 = $(`<div id="html_11d4aa78ffe7441e93ad4f855970bde4" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$12,371,257')</div>`)[0];
+            popup_c7e267c2c358423b8a45a5c0331d97b5.setContent(html_11d4aa78ffe7441e93ad4f855970bde4);
+        
+
+        marker_6a68557ced614f68991f99261de29a39.bindPopup(popup_c7e267c2c358423b8a45a5c0331d97b5)
+        ;
+
+        
+    
+    
+            var marker_a47f054de08f4659b491f3726914d872 = L.marker(
+                [40.7539325, -73.9999528],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_47e948746ae4469a858264b6ec9f7dd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a47f054de08f4659b491f3726914d872.setIcon(icon_47e948746ae4469a858264b6ec9f7dd1);
+        
+    
+        var popup_fcd764f4ddf84fefb8213c4aa373117f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7688dad093374b869fab78beaf1152d4 = $(`<div id="html_7688dad093374b869fab78beaf1152d4" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$5,000,015')</div>`)[0];
+            popup_fcd764f4ddf84fefb8213c4aa373117f.setContent(html_7688dad093374b869fab78beaf1152d4);
+        
+
+        marker_a47f054de08f4659b491f3726914d872.bindPopup(popup_fcd764f4ddf84fefb8213c4aa373117f)
+        ;
+
+        
+    
+    
+            var marker_7613a6121b5749ac8637575ca76296f9 = L.marker(
+                [40.8147102, -73.93927818207379],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_f0bf68ef9eea4191b7d0ddee284062f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7613a6121b5749ac8637575ca76296f9.setIcon(icon_f0bf68ef9eea4191b7d0ddee284062f8);
+        
+    
+        var popup_363f5616fa6847a8ab60be527ce9bbff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4c5878d94f34312860a70cf24d46bba = $(`<div id="html_b4c5878d94f34312860a70cf24d46bba" style="width: 100.0%; height: 100.0%;">('Structural', '$7,227,760')</div>`)[0];
+            popup_363f5616fa6847a8ab60be527ce9bbff.setContent(html_b4c5878d94f34312860a70cf24d46bba);
+        
+
+        marker_7613a6121b5749ac8637575ca76296f9.bindPopup(popup_363f5616fa6847a8ab60be527ce9bbff)
+        ;
+
+        
+    
+    
+            var marker_c3a3cdef3c2f475ab80f7b1098a09151 = L.marker(
+                [40.76022135, -73.97442525051773],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_1f0424c8deb9415fa6bfd96990addc70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c3a3cdef3c2f475ab80f7b1098a09151.setIcon(icon_1f0424c8deb9415fa6bfd96990addc70);
+        
+    
+        var popup_7ef48a1db19c4b8bb1d24185083f75ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c1438b987104d169e4d17104b44f601 = $(`<div id="html_7c1438b987104d169e4d17104b44f601" style="width: 100.0%; height: 100.0%;">('General Construction', '$6,433,331')</div>`)[0];
+            popup_7ef48a1db19c4b8bb1d24185083f75ea.setContent(html_7c1438b987104d169e4d17104b44f601);
+        
+
+        marker_c3a3cdef3c2f475ab80f7b1098a09151.bindPopup(popup_7ef48a1db19c4b8bb1d24185083f75ea)
+        ;
+
+        
+    
+    
+            var marker_b803ddd97ef4433394a4a07f2bc2d74f = L.marker(
+                [40.5814561, -73.97336268706613],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_d0208bdb644848daa591ce260e1cfbb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b803ddd97ef4433394a4a07f2bc2d74f.setIcon(icon_d0208bdb644848daa591ce260e1cfbb0);
+        
+    
+        var popup_e9d03be7a5064516b358a75ab5bc5b1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_497555f045ef438c8e4a35ff7003e449 = $(`<div id="html_497555f045ef438c8e4a35ff7003e449" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$10,000,000')</div>`)[0];
+            popup_e9d03be7a5064516b358a75ab5bc5b1d.setContent(html_497555f045ef438c8e4a35ff7003e449);
+        
+
+        marker_b803ddd97ef4433394a4a07f2bc2d74f.bindPopup(popup_e9d03be7a5064516b358a75ab5bc5b1d)
+        ;
+
+        
+    
+    
+            var marker_53e5c2a7d6bf4c6b9839705345dc3e3c = L.marker(
+                [40.613673597863304, -74.1803097388243],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_c87cda730f99476f9cc1c6ad00aced8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_53e5c2a7d6bf4c6b9839705345dc3e3c.setIcon(icon_c87cda730f99476f9cc1c6ad00aced8b);
+        
+    
+        var popup_a72f617e6a4a41f78c618d9d97e73f3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1aecb78badf849329663d622edc95f4b = $(`<div id="html_1aecb78badf849329663d622edc95f4b" style="width: 100.0%; height: 100.0%;">('General Construction', '$5,778,327')</div>`)[0];
+            popup_a72f617e6a4a41f78c618d9d97e73f3f.setContent(html_1aecb78badf849329663d622edc95f4b);
+        
+
+        marker_53e5c2a7d6bf4c6b9839705345dc3e3c.bindPopup(popup_a72f617e6a4a41f78c618d9d97e73f3f)
+        ;
+
+        
+    
+    
+            var marker_6c26d2a3d8e1406fa431369c2fdabf75 = L.marker(
+                [42.95380351082894, -74.29006031429763],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_0d9155959b73446c9f46d2691d3d5795 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c26d2a3d8e1406fa431369c2fdabf75.setIcon(icon_0d9155959b73446c9f46d2691d3d5795);
+        
+    
+        var popup_122952fd55b44744afac924c1d2f0619 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b81402e5c8b4ca38e36f18534c51497 = $(`<div id="html_0b81402e5c8b4ca38e36f18534c51497" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$5,069,000')</div>`)[0];
+            popup_122952fd55b44744afac924c1d2f0619.setContent(html_0b81402e5c8b4ca38e36f18534c51497);
+        
+
+        marker_6c26d2a3d8e1406fa431369c2fdabf75.bindPopup(popup_122952fd55b44744afac924c1d2f0619)
+        ;
+
+        
+    
+    
+            var marker_63c93c81ca4f40ec83d11d30164d09e8 = L.marker(
+                [42.2509147, -73.7814711],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_f983f444c8ea4a8da26de14661284c04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_63c93c81ca4f40ec83d11d30164d09e8.setIcon(icon_f983f444c8ea4a8da26de14661284c04);
+        
+    
+        var popup_dfcd2ea62bce48639244576059ddc89a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afd883c1d0bf4f3da2eada2ac4dd5c5d = $(`<div id="html_afd883c1d0bf4f3da2eada2ac4dd5c5d" style="width: 100.0%; height: 100.0%;">('General Construction', '$30,974,547')</div>`)[0];
+            popup_dfcd2ea62bce48639244576059ddc89a.setContent(html_afd883c1d0bf4f3da2eada2ac4dd5c5d);
+        
+
+        marker_63c93c81ca4f40ec83d11d30164d09e8.bindPopup(popup_dfcd2ea62bce48639244576059ddc89a)
+        ;
+
+        
+    
+    
+            var marker_f07c19304745441494b70a87b9620be3 = L.marker(
+                [40.7578529, -73.97072421562865],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_5f41704eacb64c90991bf107183a8cf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f07c19304745441494b70a87b9620be3.setIcon(icon_5f41704eacb64c90991bf107183a8cf3);
+        
+    
+        var popup_62102c59e2494046b9b19a15a484b509 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a35a6a50c2584d7ebb1a7ad89bd66941 = $(`<div id="html_a35a6a50c2584d7ebb1a7ad89bd66941" style="width: 100.0%; height: 100.0%;">('General Construction', '$14,500,000')</div>`)[0];
+            popup_62102c59e2494046b9b19a15a484b509.setContent(html_a35a6a50c2584d7ebb1a7ad89bd66941);
+        
+
+        marker_f07c19304745441494b70a87b9620be3.bindPopup(popup_62102c59e2494046b9b19a15a484b509)
+        ;
+
+        
+    
+    
+            var marker_ba9d9ba82c0043448fdd1952eb750f48 = L.marker(
+                [40.7583358, -73.96991526569397],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_c8995dcd963e4088b96bbca474146b4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba9d9ba82c0043448fdd1952eb750f48.setIcon(icon_c8995dcd963e4088b96bbca474146b4d);
+        
+    
+        var popup_b733d45cc6be4486b66acac1efa5385a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7be697bccd64450895f16f595f9f8efb = $(`<div id="html_7be697bccd64450895f16f595f9f8efb" style="width: 100.0%; height: 100.0%;">('General Construction', '$12,000,000')</div>`)[0];
+            popup_b733d45cc6be4486b66acac1efa5385a.setContent(html_7be697bccd64450895f16f595f9f8efb);
+        
+
+        marker_ba9d9ba82c0043448fdd1952eb750f48.bindPopup(popup_b733d45cc6be4486b66acac1efa5385a)
+        ;
+
+        
+    
+    
+            var marker_b111100d7dd741d2b372df6126c7e23a = L.marker(
+                [40.7689289, -73.9938308],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_7d1b8e834e54468fba5a8f56d8befb66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b111100d7dd741d2b372df6126c7e23a.setIcon(icon_7d1b8e834e54468fba5a8f56d8befb66);
+        
+    
+        var popup_f96635c170cb41d8b94da7e5ab75d4f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ad086104592495aabe7a880a79cddd5 = $(`<div id="html_9ad086104592495aabe7a880a79cddd5" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$6,998,400')</div>`)[0];
+            popup_f96635c170cb41d8b94da7e5ab75d4f3.setContent(html_9ad086104592495aabe7a880a79cddd5);
+        
+
+        marker_b111100d7dd741d2b372df6126c7e23a.bindPopup(popup_f96635c170cb41d8b94da7e5ab75d4f3)
+        ;
+
+        
+    
+    
+            var marker_dbd13159bf9b4212a1f18bbfa0323a5d = L.marker(
+                [40.7659346, -73.9698816],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_95cb77a529a24ec8addd5ebd5d6fc7cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dbd13159bf9b4212a1f18bbfa0323a5d.setIcon(icon_95cb77a529a24ec8addd5ebd5d6fc7cc);
+        
+    
+        var popup_876d1a5cba794b2d8b13ddc4dee50d00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1719d55273ad4ba1bde6038dbfa4771b = $(`<div id="html_1719d55273ad4ba1bde6038dbfa4771b" style="width: 100.0%; height: 100.0%;">('General Construction', '$15,065,790')</div>`)[0];
+            popup_876d1a5cba794b2d8b13ddc4dee50d00.setContent(html_1719d55273ad4ba1bde6038dbfa4771b);
+        
+
+        marker_dbd13159bf9b4212a1f18bbfa0323a5d.bindPopup(popup_876d1a5cba794b2d8b13ddc4dee50d00)
+        ;
+
+        
+    
+    
+            var marker_1d38e7f9efac4186b2dbc9e188f2192d = L.marker(
+                [40.762741, -73.9739034],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_e75d34d15b6b4d0c9b22af27e21e6274 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1d38e7f9efac4186b2dbc9e188f2192d.setIcon(icon_e75d34d15b6b4d0c9b22af27e21e6274);
+        
+    
+        var popup_27956b531da149a28c811041d9a60156 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e15575d2ef75496a89697d468b205a76 = $(`<div id="html_e15575d2ef75496a89697d468b205a76" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$5,436,000')</div>`)[0];
+            popup_27956b531da149a28c811041d9a60156.setContent(html_e15575d2ef75496a89697d468b205a76);
+        
+
+        marker_1d38e7f9efac4186b2dbc9e188f2192d.bindPopup(popup_27956b531da149a28c811041d9a60156)
+        ;
+
+        
+    
+    
+            var marker_7a0c5bb733ba40caad1a2fafc411eadf = L.marker(
+                [42.7151476, -73.7053583],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_8428af22f63248df9ff2336f441e434d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7a0c5bb733ba40caad1a2fafc411eadf.setIcon(icon_8428af22f63248df9ff2336f441e434d);
+        
+    
+        var popup_c7749694735c43a99a0ebb236a81b4fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3836660c29c9479394bcbe42c9d7494a = $(`<div id="html_3836660c29c9479394bcbe42c9d7494a" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$8,300,000')</div>`)[0];
+            popup_c7749694735c43a99a0ebb236a81b4fa.setContent(html_3836660c29c9479394bcbe42c9d7494a);
+        
+
+        marker_7a0c5bb733ba40caad1a2fafc411eadf.bindPopup(popup_c7749694735c43a99a0ebb236a81b4fa)
+        ;
+
+        
+    
+    
+            var marker_8e50a2cf6ece447f801cc4836c085e1a = L.marker(
+                [40.82367525, -73.92232765344342],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_cf9e03f1331d4d90b3b9f02cc1925c93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8e50a2cf6ece447f801cc4836c085e1a.setIcon(icon_cf9e03f1331d4d90b3b9f02cc1925c93);
+        
+    
+        var popup_bdd56974156640b58f2aee827d9c2584 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0aff29b644d4a64b09d845ab72c7f87 = $(`<div id="html_b0aff29b644d4a64b09d845ab72c7f87" style="width: 100.0%; height: 100.0%;">('Structural', '$15,506,250')</div>`)[0];
+            popup_bdd56974156640b58f2aee827d9c2584.setContent(html_b0aff29b644d4a64b09d845ab72c7f87);
+        
+
+        marker_8e50a2cf6ece447f801cc4836c085e1a.bindPopup(popup_bdd56974156640b58f2aee827d9c2584)
+        ;
+
+        
+    
+    
+            var marker_5da1949ccb6c42d18ad8071f2ec46f9e = L.marker(
+                [42.7352973, -73.71131],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_292c039a6c6d495ca07ac7d1b44fbcd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5da1949ccb6c42d18ad8071f2ec46f9e.setIcon(icon_292c039a6c6d495ca07ac7d1b44fbcd6);
+        
+    
+        var popup_7624adbf01864bae9f9ed05a8bce110d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_726c159525c24515a2c39c82e09053b3 = $(`<div id="html_726c159525c24515a2c39c82e09053b3" style="width: 100.0%; height: 100.0%;">('General Construction', '$9,998,605')</div>`)[0];
+            popup_7624adbf01864bae9f9ed05a8bce110d.setContent(html_726c159525c24515a2c39c82e09053b3);
+        
+
+        marker_5da1949ccb6c42d18ad8071f2ec46f9e.bindPopup(popup_7624adbf01864bae9f9ed05a8bce110d)
+        ;
+
+        
+    
+    
+            var marker_4be366a5085443649ade9c721737a5ab = L.marker(
+                [42.7958866, -73.9497163],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_492dac7e024645369cc916388d551464 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4be366a5085443649ade9c721737a5ab.setIcon(icon_492dac7e024645369cc916388d551464);
+        
+    
+        var popup_8dff7d1b31824fb89f972cbfdff61a69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc996f550c514531ba9cf33f87b42af0 = $(`<div id="html_bc996f550c514531ba9cf33f87b42af0" style="width: 100.0%; height: 100.0%;">('General Construction', '$10,688,000')</div>`)[0];
+            popup_8dff7d1b31824fb89f972cbfdff61a69.setContent(html_bc996f550c514531ba9cf33f87b42af0);
+        
+
+        marker_4be366a5085443649ade9c721737a5ab.bindPopup(popup_8dff7d1b31824fb89f972cbfdff61a69)
+        ;
+
+        
+    
+    
+            var marker_8d721fba73884ad29cfdd1d44d34de09 = L.marker(
+                [40.7391979, -74.0079171],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_8bea577736ae45bd81bf9ec3959053ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d721fba73884ad29cfdd1d44d34de09.setIcon(icon_8bea577736ae45bd81bf9ec3959053ee);
+        
+    
+        var popup_a6d32e9aa72548e29d96d9d534ca1e79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fefaea5d66224bcd83e2aaf6b15dd35e = $(`<div id="html_fefaea5d66224bcd83e2aaf6b15dd35e" style="width: 100.0%; height: 100.0%;">('General Construction', '$5,757,529')</div>`)[0];
+            popup_a6d32e9aa72548e29d96d9d534ca1e79.setContent(html_fefaea5d66224bcd83e2aaf6b15dd35e);
+        
+
+        marker_8d721fba73884ad29cfdd1d44d34de09.bindPopup(popup_a6d32e9aa72548e29d96d9d534ca1e79)
+        ;
+
+        
+    
+    
+            var marker_c1c7067258344dd590d96391f6e25c57 = L.marker(
+                [40.75581725, -73.97014693628644],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_796ba6b78eb84fc2b1585b48e4b35017 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c1c7067258344dd590d96391f6e25c57.setIcon(icon_796ba6b78eb84fc2b1585b48e4b35017);
+        
+    
+        var popup_b535aa378943460f9f40ca0bc4af020e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0765cef729f45ffaa524b13a1db0744 = $(`<div id="html_a0765cef729f45ffaa524b13a1db0744" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$17,020,500')</div>`)[0];
+            popup_b535aa378943460f9f40ca0bc4af020e.setContent(html_a0765cef729f45ffaa524b13a1db0744);
+        
+
+        marker_c1c7067258344dd590d96391f6e25c57.bindPopup(popup_b535aa378943460f9f40ca0bc4af020e)
+        ;
+
+        
+    
+    
+            var marker_4dcbbc9e6bd748b88dbbc083b04fe344 = L.marker(
+                [40.6564804, -73.8883512],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_0f1a012fdaf8404b86d5af3db6936946 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4dcbbc9e6bd748b88dbbc083b04fe344.setIcon(icon_0f1a012fdaf8404b86d5af3db6936946);
+        
+    
+        var popup_46f3a04441f443a294e2f0544a3ac6d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4836f481bd84d96aee0cf4f69889c3b = $(`<div id="html_c4836f481bd84d96aee0cf4f69889c3b" style="width: 100.0%; height: 100.0%;">('General Construction', '$6,950,160')</div>`)[0];
+            popup_46f3a04441f443a294e2f0544a3ac6d1.setContent(html_c4836f481bd84d96aee0cf4f69889c3b);
+        
+
+        marker_4dcbbc9e6bd748b88dbbc083b04fe344.bindPopup(popup_46f3a04441f443a294e2f0544a3ac6d1)
+        ;
+
+        
+    
+    
+            var marker_ffa4fdbdfa2f4d6db2cb9bf83ada945a = L.marker(
+                [40.66245995, -73.93268398997627],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_80490f82f01a4c1dac8a5dc0a4b43559 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ffa4fdbdfa2f4d6db2cb9bf83ada945a.setIcon(icon_80490f82f01a4c1dac8a5dc0a4b43559);
+        
+    
+        var popup_d53fc136f8604e668413476849c9a239 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a884e30d38a14066a61ce82c6884593e = $(`<div id="html_a884e30d38a14066a61ce82c6884593e" style="width: 100.0%; height: 100.0%;">('General Construction', '$5,000,000')</div>`)[0];
+            popup_d53fc136f8604e668413476849c9a239.setContent(html_a884e30d38a14066a61ce82c6884593e);
+        
+
+        marker_ffa4fdbdfa2f4d6db2cb9bf83ada945a.bindPopup(popup_d53fc136f8604e668413476849c9a239)
+        ;
+
+        
+    
+    
+            var marker_2753a00bb520450ba3b0271e9ce29c2e = L.marker(
+                [40.75889165, -73.96746821714933],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_833df4c28fdb4e63838c95fc9748f346 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2753a00bb520450ba3b0271e9ce29c2e.setIcon(icon_833df4c28fdb4e63838c95fc9748f346);
+        
+    
+        var popup_1d6c0999312b48b7891b12f8403ae293 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aea543be59724d1792b81dd367200109 = $(`<div id="html_aea543be59724d1792b81dd367200109" style="width: 100.0%; height: 100.0%;">('General Construction', '$5,100,000')</div>`)[0];
+            popup_1d6c0999312b48b7891b12f8403ae293.setContent(html_aea543be59724d1792b81dd367200109);
+        
+
+        marker_2753a00bb520450ba3b0271e9ce29c2e.bindPopup(popup_1d6c0999312b48b7891b12f8403ae293)
+        ;
+
+        
+    
+    
+            var marker_3744f8017bf84e7eb1e427c39b83d511 = L.marker(
+                [40.7794396, -73.96338248033601],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_950d8345dd2541c699ab5d6a459783b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3744f8017bf84e7eb1e427c39b83d511.setIcon(icon_950d8345dd2541c699ab5d6a459783b0);
+        
+    
+        var popup_75754d386e1b4d17bb62c6aec61db7cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_948e9f62cb364e589a8c077f15ca82ba = $(`<div id="html_948e9f62cb364e589a8c077f15ca82ba" style="width: 100.0%; height: 100.0%;">('General Construction', '$18,243,500')</div>`)[0];
+            popup_75754d386e1b4d17bb62c6aec61db7cf.setContent(html_948e9f62cb364e589a8c077f15ca82ba);
+        
+
+        marker_3744f8017bf84e7eb1e427c39b83d511.bindPopup(popup_75754d386e1b4d17bb62c6aec61db7cf)
+        ;
+
+        
+    
+    
+            var marker_a8304c2046434eb79a4cce0554662f08 = L.marker(
+                [40.82597125494334, -73.89202007512236],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_baa4790afe854953b77c6a6b8562fc9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a8304c2046434eb79a4cce0554662f08.setIcon(icon_baa4790afe854953b77c6a6b8562fc9c);
+        
+    
+        var popup_66f6ca18981d44fb8c728d1b40aab934 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13a4a125abe44c52ae202b9060f6a9ac = $(`<div id="html_13a4a125abe44c52ae202b9060f6a9ac" style="width: 100.0%; height: 100.0%;">('General Construction', '$5,150,000')</div>`)[0];
+            popup_66f6ca18981d44fb8c728d1b40aab934.setContent(html_13a4a125abe44c52ae202b9060f6a9ac);
+        
+
+        marker_a8304c2046434eb79a4cce0554662f08.bindPopup(popup_66f6ca18981d44fb8c728d1b40aab934)
+        ;
+
+        
+    
+    
+            var marker_87262d2ed25147e699117005756e3a24 = L.marker(
+                [40.754691449999996, -73.98267463742384],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_9c06d32a99b1438388e1787201571cd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_87262d2ed25147e699117005756e3a24.setIcon(icon_9c06d32a99b1438388e1787201571cd5);
+        
+    
+        var popup_886743c0a3324110b279712a7821ca09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6117028d2ab84913807911f1e9c1be37 = $(`<div id="html_6117028d2ab84913807911f1e9c1be37" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$7,292,400')</div>`)[0];
+            popup_886743c0a3324110b279712a7821ca09.setContent(html_6117028d2ab84913807911f1e9c1be37);
+        
+
+        marker_87262d2ed25147e699117005756e3a24.bindPopup(popup_886743c0a3324110b279712a7821ca09)
+        ;
+
+        
+    
+    
+            var marker_98ece65e81bd42839b936a3b6481d7c6 = L.marker(
+                [40.756697349999996, -73.98327469136089],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_65c95383fc1e427da3ccf26ad75c8897 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_98ece65e81bd42839b936a3b6481d7c6.setIcon(icon_65c95383fc1e427da3ccf26ad75c8897);
+        
+    
+        var popup_0e126e47722c450f8133742a022e1a37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2d7aef6f8bc4f10be6a8993e95bc9d1 = $(`<div id="html_d2d7aef6f8bc4f10be6a8993e95bc9d1" style="width: 100.0%; height: 100.0%;">('General Construction', '$6,975,486')</div>`)[0];
+            popup_0e126e47722c450f8133742a022e1a37.setContent(html_d2d7aef6f8bc4f10be6a8993e95bc9d1);
+        
+
+        marker_98ece65e81bd42839b936a3b6481d7c6.bindPopup(popup_0e126e47722c450f8133742a022e1a37)
+        ;
+
+        
+    
+    
+            var marker_ef2c0c14e10049bcb2f5905da8beaf7a = L.marker(
+                [40.756877849999995, -73.98200360000001],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_227d5920e6d44238a804286ad62ed331 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ef2c0c14e10049bcb2f5905da8beaf7a.setIcon(icon_227d5920e6d44238a804286ad62ed331);
+        
+    
+        var popup_14bec8591ba042dabb092d450eaa21ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6d5df7dfec748beb5972c84a32c3c65 = $(`<div id="html_a6d5df7dfec748beb5972c84a32c3c65" style="width: 100.0%; height: 100.0%;">('General Construction', '$10,323,300')</div>`)[0];
+            popup_14bec8591ba042dabb092d450eaa21ad.setContent(html_a6d5df7dfec748beb5972c84a32c3c65);
+        
+
+        marker_ef2c0c14e10049bcb2f5905da8beaf7a.bindPopup(popup_14bec8591ba042dabb092d450eaa21ad)
+        ;
+
+        
+    
+    
+            var marker_b881c869514948638127d39c6d45f420 = L.marker(
+                [40.75866945, -73.98237558133278],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_4e903d0de74142dab7896646839c2b1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b881c869514948638127d39c6d45f420.setIcon(icon_4e903d0de74142dab7896646839c2b1a);
+        
+    
+        var popup_ec4cc0a1ca334f0e9c9f66deb632a2b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8dbc12a924a497492a54e56929ee7ba = $(`<div id="html_a8dbc12a924a497492a54e56929ee7ba" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$5,000,000')</div>`)[0];
+            popup_ec4cc0a1ca334f0e9c9f66deb632a2b8.setContent(html_a8dbc12a924a497492a54e56929ee7ba);
+        
+
+        marker_b881c869514948638127d39c6d45f420.bindPopup(popup_ec4cc0a1ca334f0e9c9f66deb632a2b8)
+        ;
+
+        
+    
+    
+            var marker_fe10287167af40cf901bc9fb98ce56ae = L.marker(
+                [40.7595447, -73.98253281534684],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_394c340c2c474b209ab0c8007ad7b6d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fe10287167af40cf901bc9fb98ce56ae.setIcon(icon_394c340c2c474b209ab0c8007ad7b6d1);
+        
+    
+        var popup_e1626535a93440469153d827424f8d20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb6f099127a749078a55e5b219e804ab = $(`<div id="html_fb6f099127a749078a55e5b219e804ab" style="width: 100.0%; height: 100.0%;">('General Construction', '$12,625,150')</div>`)[0];
+            popup_e1626535a93440469153d827424f8d20.setContent(html_fb6f099127a749078a55e5b219e804ab);
+        
+
+        marker_fe10287167af40cf901bc9fb98ce56ae.bindPopup(popup_e1626535a93440469153d827424f8d20)
+        ;
+
+        
+    
+    
+            var marker_2488724eed9741cc9bbce313f425af2a = L.marker(
+                [40.7604688, -73.97887349473689],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_bf131f5b76a244c2a5882dbfd54d9e0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2488724eed9741cc9bbce313f425af2a.setIcon(icon_bf131f5b76a244c2a5882dbfd54d9e0c);
+        
+    
+        var popup_a286b78adb73487db98b6fa97c7ebd01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0022bdbcdbf143ffab5e705c9bb8810e = $(`<div id="html_0022bdbcdbf143ffab5e705c9bb8810e" style="width: 100.0%; height: 100.0%;">('General Construction', '$6,701,482')</div>`)[0];
+            popup_a286b78adb73487db98b6fa97c7ebd01.setContent(html_0022bdbcdbf143ffab5e705c9bb8810e);
+        
+
+        marker_2488724eed9741cc9bbce313f425af2a.bindPopup(popup_a286b78adb73487db98b6fa97c7ebd01)
+        ;
+
+        
+    
+    
+            var marker_3dfab4ce6aa848d98b92b78ac6f97f59 = L.marker(
+                [40.83364914515492, -73.89414394019975],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_56c0110e273247b8b753bed8b806611f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3dfab4ce6aa848d98b92b78ac6f97f59.setIcon(icon_56c0110e273247b8b753bed8b806611f);
+        
+    
+        var popup_6a9bb26d04664e8fa4d285938a7003e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31b3e6a35f5e47eda67cdf0f52ba9b13 = $(`<div id="html_31b3e6a35f5e47eda67cdf0f52ba9b13" style="width: 100.0%; height: 100.0%;">('General Construction', '$6,000,000')</div>`)[0];
+            popup_6a9bb26d04664e8fa4d285938a7003e8.setContent(html_31b3e6a35f5e47eda67cdf0f52ba9b13);
+        
+
+        marker_3dfab4ce6aa848d98b92b78ac6f97f59.bindPopup(popup_6a9bb26d04664e8fa4d285938a7003e8)
+        ;
+
+        
+    
+    
+            var marker_007d1aa22a8c40648d37f007c1f3f906 = L.marker(
+                [43.127342, -77.6129229],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_36dd24de2cff459983c9f546478114bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_007d1aa22a8c40648d37f007c1f3f906.setIcon(icon_36dd24de2cff459983c9f546478114bf);
+        
+    
+        var popup_c0d0a6be823144419cf1e91d23c65e58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5f17af19efa44eeaf08f73367925ab2 = $(`<div id="html_d5f17af19efa44eeaf08f73367925ab2" style="width: 100.0%; height: 100.0%;">('Structural', '$5,728,840')</div>`)[0];
+            popup_c0d0a6be823144419cf1e91d23c65e58.setContent(html_d5f17af19efa44eeaf08f73367925ab2);
+        
+
+        marker_007d1aa22a8c40648d37f007c1f3f906.bindPopup(popup_c0d0a6be823144419cf1e91d23c65e58)
+        ;
+
+        
+    
+    
+            var marker_3a8e3da895f2445e8eb3d532b4ec2fe1 = L.marker(
+                [41.137837, -72.3037023],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_8493cd64517d4e5087079f543195d3ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3a8e3da895f2445e8eb3d532b4ec2fe1.setIcon(icon_8493cd64517d4e5087079f543195d3ed);
+        
+    
+        var popup_6e0b282a757442579d5233d228926845 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3272c4e9be7541b58832c6f8849a13c5 = $(`<div id="html_3272c4e9be7541b58832c6f8849a13c5" style="width: 100.0%; height: 100.0%;">('Supported Scaffold', '$5,000,000')</div>`)[0];
+            popup_6e0b282a757442579d5233d228926845.setContent(html_3272c4e9be7541b58832c6f8849a13c5);
+        
+
+        marker_3a8e3da895f2445e8eb3d532b4ec2fe1.bindPopup(popup_6e0b282a757442579d5233d228926845)
+        ;
+
+        
+    
+    
+            var marker_1daa30a804774924a6910fc181b3d36a = L.marker(
+                [40.84737102702702, -73.84468535135134],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_7b3cb9c07e524990957e997bfff929d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1daa30a804774924a6910fc181b3d36a.setIcon(icon_7b3cb9c07e524990957e997bfff929d6);
+        
+    
+        var popup_14adb20dbb1e45f5bee7a4d0c082c40d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd9ba87bbb7348bab6bc324a5e77bde2 = $(`<div id="html_cd9ba87bbb7348bab6bc324a5e77bde2" style="width: 100.0%; height: 100.0%;">('General Construction', '$10,000,584')</div>`)[0];
+            popup_14adb20dbb1e45f5bee7a4d0c082c40d.setContent(html_cd9ba87bbb7348bab6bc324a5e77bde2);
+        
+
+        marker_1daa30a804774924a6910fc181b3d36a.bindPopup(popup_14adb20dbb1e45f5bee7a4d0c082c40d)
+        ;
+
+        
+    
+    
+            var marker_7b28c1190e72428e9c1e606f36061000 = L.marker(
+                [40.785037149999994, -73.94497080931619],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_e5174eee21eb4b638bd55101408c1831 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7b28c1190e72428e9c1e606f36061000.setIcon(icon_e5174eee21eb4b638bd55101408c1831);
+        
+    
+        var popup_129c5eb1b76341f39a2842ad54777397 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74e63c27fa6f4c1daafee576c692e920 = $(`<div id="html_74e63c27fa6f4c1daafee576c692e920" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$6,523,476')</div>`)[0];
+            popup_129c5eb1b76341f39a2842ad54777397.setContent(html_74e63c27fa6f4c1daafee576c692e920);
+        
+
+        marker_7b28c1190e72428e9c1e606f36061000.bindPopup(popup_129c5eb1b76341f39a2842ad54777397)
+        ;
+
+        
+    
+    
+            var marker_675ff4fd1c844adca95f8dedbccafce5 = L.marker(
+                [40.85112719230769, -73.89875223076923],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_23d365d240c44c40aa3a08883ed2c2ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_675ff4fd1c844adca95f8dedbccafce5.setIcon(icon_23d365d240c44c40aa3a08883ed2c2ae);
+        
+    
+        var popup_86218727f97a4589b228a79cd66f2d22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e090df4212243b1a851ae52f53a5cef = $(`<div id="html_2e090df4212243b1a851ae52f53a5cef" style="width: 100.0%; height: 100.0%;">('Curb Cut', '$10,000,000')</div>`)[0];
+            popup_86218727f97a4589b228a79cd66f2d22.setContent(html_2e090df4212243b1a851ae52f53a5cef);
+        
+
+        marker_675ff4fd1c844adca95f8dedbccafce5.bindPopup(popup_86218727f97a4589b228a79cd66f2d22)
+        ;
+
+        
+    
+    
+            var marker_7bda7d4a3972405f8385947550fca759 = L.marker(
+                [40.585903900000005, -73.96484940323336],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_4cf14f026f4744c8a9eef18f16a79613 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7bda7d4a3972405f8385947550fca759.setIcon(icon_4cf14f026f4744c8a9eef18f16a79613);
+        
+    
+        var popup_cd6054471c92431e9169d400ac893766 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19d8b1effeef415891b313986904311c = $(`<div id="html_19d8b1effeef415891b313986904311c" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$6,392,975')</div>`)[0];
+            popup_cd6054471c92431e9169d400ac893766.setContent(html_19d8b1effeef415891b313986904311c);
+        
+
+        marker_7bda7d4a3972405f8385947550fca759.bindPopup(popup_cd6054471c92431e9169d400ac893766)
+        ;
+
+        
+    
+    
+            var marker_1a16458a5a01421a8507921fe44c180d = L.marker(
+                [40.55084145, -74.22035199386394],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_c28df16db2b04d50b027b789f713d8ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1a16458a5a01421a8507921fe44c180d.setIcon(icon_c28df16db2b04d50b027b789f713d8ff);
+        
+    
+        var popup_e90b0e62c74843b8a6bb3b81a23ab83b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d78872abe50459fa8f36145c50b9e37 = $(`<div id="html_6d78872abe50459fa8f36145c50b9e37" style="width: 100.0%; height: 100.0%;">('Structural', '$7,300,275')</div>`)[0];
+            popup_e90b0e62c74843b8a6bb3b81a23ab83b.setContent(html_6d78872abe50459fa8f36145c50b9e37);
+        
+
+        marker_1a16458a5a01421a8507921fe44c180d.bindPopup(popup_e90b0e62c74843b8a6bb3b81a23ab83b)
+        ;
+
+        
+    
+    
+            var marker_476acd9701514058abecacda914aa7c9 = L.marker(
+                [40.5805768, -74.00033404976074],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_5d41a9e5c484474c81da53f9f9c4a376 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_476acd9701514058abecacda914aa7c9.setIcon(icon_5d41a9e5c484474c81da53f9f9c4a376);
+        
+    
+        var popup_86d639af17524d068bab7553740e170c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90b4b0f1d47b4b14910889be76cb529d = $(`<div id="html_90b4b0f1d47b4b14910889be76cb529d" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$125,000,000')</div>`)[0];
+            popup_86d639af17524d068bab7553740e170c.setContent(html_90b4b0f1d47b4b14910889be76cb529d);
+        
+
+        marker_476acd9701514058abecacda914aa7c9.bindPopup(popup_86d639af17524d068bab7553740e170c)
+        ;
+
+        
+    
+    
+            var marker_910334137ddc4d0f8697849d48ee7a0b = L.marker(
+                [40.5798663, -74.00019989101793],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_56a4d95b3ae84c5e9ad23375e1569a88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_910334137ddc4d0f8697849d48ee7a0b.setIcon(icon_56a4d95b3ae84c5e9ad23375e1569a88);
+        
+    
+        var popup_4510b314527b410b8d7e7de0dc576435 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0b4449d0e71400a8ec88ef16126545b = $(`<div id="html_e0b4449d0e71400a8ec88ef16126545b" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$125,000,000')</div>`)[0];
+            popup_4510b314527b410b8d7e7de0dc576435.setContent(html_e0b4449d0e71400a8ec88ef16126545b);
+        
+
+        marker_910334137ddc4d0f8697849d48ee7a0b.bindPopup(popup_4510b314527b410b8d7e7de0dc576435)
+        ;
+
+        
+    
+    
+            var marker_0308cdd4ded4407ba4d24f25d07604d6 = L.marker(
+                [40.5794919, -73.99971195819671],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_911deeab45644028981e53b8df03634a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0308cdd4ded4407ba4d24f25d07604d6.setIcon(icon_911deeab45644028981e53b8df03634a);
+        
+    
+        var popup_5cf3801cd5a347c18af07289805f555b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc307e2e3843437c9f17c34b604f0c92 = $(`<div id="html_fc307e2e3843437c9f17c34b604f0c92" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$125,000,000')</div>`)[0];
+            popup_5cf3801cd5a347c18af07289805f555b.setContent(html_fc307e2e3843437c9f17c34b604f0c92);
+        
+
+        marker_0308cdd4ded4407ba4d24f25d07604d6.bindPopup(popup_5cf3801cd5a347c18af07289805f555b)
+        ;
+
+        
+    
+    
+            var marker_783fc1b6bf984af1af73d04273b2a4d3 = L.marker(
+                [40.579143349999995, -74.0000606231132],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_b691d0a3f49c4528b620320a132c894a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_783fc1b6bf984af1af73d04273b2a4d3.setIcon(icon_b691d0a3f49c4528b620320a132c894a);
+        
+    
+        var popup_718d158c9c7e4be58533189e0142baf7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20a33318febe46fab23143269979c1a6 = $(`<div id="html_20a33318febe46fab23143269979c1a6" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$125,000,000')</div>`)[0];
+            popup_718d158c9c7e4be58533189e0142baf7.setContent(html_20a33318febe46fab23143269979c1a6);
+        
+
+        marker_783fc1b6bf984af1af73d04273b2a4d3.bindPopup(popup_718d158c9c7e4be58533189e0142baf7)
+        ;
+
+        
+    
+    
+            var marker_afdc77d598d749b98ada6817e6931d69 = L.marker(
+                [40.5788288, -73.99957079533823],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_170b90b87f334b12bed3382cd32ffd37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_afdc77d598d749b98ada6817e6931d69.setIcon(icon_170b90b87f334b12bed3382cd32ffd37);
+        
+    
+        var popup_80e1adf2c30a43bbb50311d5e44febc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42449c69e30748d8bbea6aaa9dd57813 = $(`<div id="html_42449c69e30748d8bbea6aaa9dd57813" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$125,000,000')</div>`)[0];
+            popup_80e1adf2c30a43bbb50311d5e44febc3.setContent(html_42449c69e30748d8bbea6aaa9dd57813);
+        
+
+        marker_afdc77d598d749b98ada6817e6931d69.bindPopup(popup_80e1adf2c30a43bbb50311d5e44febc3)
+        ;
+
+        
+    
+    
+            var marker_e02c1a5069d94db0ab4b5e7bd08ec064 = L.marker(
+                [40.57839265, -73.99990932080908],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_b148365132d447438e449acaec6718d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e02c1a5069d94db0ab4b5e7bd08ec064.setIcon(icon_b148365132d447438e449acaec6718d3);
+        
+    
+        var popup_49ba114f6fc4446eb063fc9bda894138 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cc342667e7f49718fb7835877013865 = $(`<div id="html_3cc342667e7f49718fb7835877013865" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$125,000,000')</div>`)[0];
+            popup_49ba114f6fc4446eb063fc9bda894138.setContent(html_3cc342667e7f49718fb7835877013865);
+        
+
+        marker_e02c1a5069d94db0ab4b5e7bd08ec064.bindPopup(popup_49ba114f6fc4446eb063fc9bda894138)
+        ;
+
+        
+    
+    
+            var marker_4b96e65ad9d94bd0b50d394537da12f0 = L.marker(
+                [40.57767, -73.9998354],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_0f5324e708574f53b032cb7811d9cd57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4b96e65ad9d94bd0b50d394537da12f0.setIcon(icon_0f5324e708574f53b032cb7811d9cd57);
+        
+    
+        var popup_314873b4777a4853a94cb57550d84147 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e52239967554d298bb8879f2032cee8 = $(`<div id="html_2e52239967554d298bb8879f2032cee8" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$125,000,000')</div>`)[0];
+            popup_314873b4777a4853a94cb57550d84147.setContent(html_2e52239967554d298bb8879f2032cee8);
+        
+
+        marker_4b96e65ad9d94bd0b50d394537da12f0.bindPopup(popup_314873b4777a4853a94cb57550d84147)
+        ;
+
+        
+    
+    
+            var marker_516dc9aa74c9449192f4458635ec950c = L.marker(
+                [40.580913100000004, -73.96835149343565],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_70464cad2bd64486b760e9665685185f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_516dc9aa74c9449192f4458635ec950c.setIcon(icon_70464cad2bd64486b760e9665685185f);
+        
+    
+        var popup_82f58d31a76a4c11b7d9a092583cd747 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_159e47ab85764527b67e63ace71860c6 = $(`<div id="html_159e47ab85764527b67e63ace71860c6" style="width: 100.0%; height: 100.0%;">('General Construction', '$15,900,000')</div>`)[0];
+            popup_82f58d31a76a4c11b7d9a092583cd747.setContent(html_159e47ab85764527b67e63ace71860c6);
+        
+
+        marker_516dc9aa74c9449192f4458635ec950c.bindPopup(popup_82f58d31a76a4c11b7d9a092583cd747)
+        ;
+
+        
+    
+    
+            var marker_7b09063ff79e47c6898ba800eaf85f81 = L.marker(
+                [40.577914666666665, -73.998061],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_e71eec6f8fbe4ca2aa0b7e2670cc619c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7b09063ff79e47c6898ba800eaf85f81.setIcon(icon_e71eec6f8fbe4ca2aa0b7e2670cc619c);
+        
+    
+        var popup_a0c2749f35f2472f94b9f3941ba60d91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a51572aac5d643eb88ceb89f2dab1fcf = $(`<div id="html_a51572aac5d643eb88ceb89f2dab1fcf" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$125,000,000')</div>`)[0];
+            popup_a0c2749f35f2472f94b9f3941ba60d91.setContent(html_a51572aac5d643eb88ceb89f2dab1fcf);
+        
+
+        marker_7b09063ff79e47c6898ba800eaf85f81.bindPopup(popup_a0c2749f35f2472f94b9f3941ba60d91)
+        ;
+
+        
+    
+    
+            var marker_21c5b13c22cd42629cf2fbe9848b58ad = L.marker(
+                [40.578418, -73.99900283229044],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_6b6f4d10ec0f41c5b9c46107444813ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_21c5b13c22cd42629cf2fbe9848b58ad.setIcon(icon_6b6f4d10ec0f41c5b9c46107444813ec);
+        
+    
+        var popup_4840927bac83427584f22a8101957ba8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cecf7a5b462489c970fae0e162ccfef = $(`<div id="html_7cecf7a5b462489c970fae0e162ccfef" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$125,000,000')</div>`)[0];
+            popup_4840927bac83427584f22a8101957ba8.setContent(html_7cecf7a5b462489c970fae0e162ccfef);
+        
+
+        marker_21c5b13c22cd42629cf2fbe9848b58ad.bindPopup(popup_4840927bac83427584f22a8101957ba8)
+        ;
+
+        
+    
+    
+            var marker_7ea3bdbe97f94ee9aafd2ba90e2074b2 = L.marker(
+                [40.57886645, -73.99845155725134],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_8713b6ad11354e9190171de146a4ad3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7ea3bdbe97f94ee9aafd2ba90e2074b2.setIcon(icon_8713b6ad11354e9190171de146a4ad3d);
+        
+    
+        var popup_5ed0a5c0a07c4f4696e3b4ab9fe49573 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d448940d6e5848e39c5c299e2b514ebf = $(`<div id="html_d448940d6e5848e39c5c299e2b514ebf" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$125,000,000')</div>`)[0];
+            popup_5ed0a5c0a07c4f4696e3b4ab9fe49573.setContent(html_d448940d6e5848e39c5c299e2b514ebf);
+        
+
+        marker_7ea3bdbe97f94ee9aafd2ba90e2074b2.bindPopup(popup_5ed0a5c0a07c4f4696e3b4ab9fe49573)
+        ;
+
+        
+    
+    
+            var marker_f0ac7e52379b449da71a17ad848693bb = L.marker(
+                [40.5791911, -73.99903924873416],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_b831c24d84bb4425bc5dc2f559976f90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f0ac7e52379b449da71a17ad848693bb.setIcon(icon_b831c24d84bb4425bc5dc2f559976f90);
+        
+    
+        var popup_524ff70e3d5f42b4a17e8c9098c59fd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f873f99013f49a7a79473164667e190 = $(`<div id="html_2f873f99013f49a7a79473164667e190" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$125,000,000')</div>`)[0];
+            popup_524ff70e3d5f42b4a17e8c9098c59fd2.setContent(html_2f873f99013f49a7a79473164667e190);
+        
+
+        marker_f0ac7e52379b449da71a17ad848693bb.bindPopup(popup_524ff70e3d5f42b4a17e8c9098c59fd2)
+        ;
+
+        
+    
+    
+            var marker_a8554379fad34f08be99092b1a501836 = L.marker(
+                [40.57958465, -73.99862310943708],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_967ca5454b204c709077485a3e75087a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a8554379fad34f08be99092b1a501836.setIcon(icon_967ca5454b204c709077485a3e75087a);
+        
+    
+        var popup_06c84929ff634541af54c167d2433699 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8afe282bcdd45a48297b391dc6c3e4d = $(`<div id="html_f8afe282bcdd45a48297b391dc6c3e4d" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$125,000,000')</div>`)[0];
+            popup_06c84929ff634541af54c167d2433699.setContent(html_f8afe282bcdd45a48297b391dc6c3e4d);
+        
+
+        marker_a8554379fad34f08be99092b1a501836.bindPopup(popup_06c84929ff634541af54c167d2433699)
+        ;
+
+        
+    
+    
+            var marker_50e40d65a80d4b33978bacc57df25cd7 = L.marker(
+                [40.57777695, -73.99916576702879],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_85a972a2fd21436bbba5ef2f03ee62cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_50e40d65a80d4b33978bacc57df25cd7.setIcon(icon_85a972a2fd21436bbba5ef2f03ee62cc);
+        
+    
+        var popup_526b7c312b5a4089863b480ccbe3e73a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33ca9bd3539e40d2bb582e33151617ec = $(`<div id="html_33ca9bd3539e40d2bb582e33151617ec" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$125,000,000')</div>`)[0];
+            popup_526b7c312b5a4089863b480ccbe3e73a.setContent(html_33ca9bd3539e40d2bb582e33151617ec);
+        
+
+        marker_50e40d65a80d4b33978bacc57df25cd7.bindPopup(popup_526b7c312b5a4089863b480ccbe3e73a)
+        ;
+
+        
+    
+    
+            var marker_1eb9087d4e99423a950ff883185fbf9c = L.marker(
+                [40.579974, -73.99926427136703],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_ebb1b622461c4696ba4c65a1bd36f80b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_1eb9087d4e99423a950ff883185fbf9c.setIcon(icon_ebb1b622461c4696ba4c65a1bd36f80b);
+        
+    
+        var popup_14894f3adba84f3496feb41abf6b592c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f953d01c341941229e053d04ef6e50dd = $(`<div id="html_f953d01c341941229e053d04ef6e50dd" style="width: 100.0%; height: 100.0%;">('Sidewalk Shed', '$125,000,000')</div>`)[0];
+            popup_14894f3adba84f3496feb41abf6b592c.setContent(html_f953d01c341941229e053d04ef6e50dd);
+        
+
+        marker_1eb9087d4e99423a950ff883185fbf9c.bindPopup(popup_14894f3adba84f3496feb41abf6b592c)
+        ;
+
+        
+    
+    
+            var marker_f9a0574ec51642a485e0188e4757ba94 = L.marker(
+                [40.5802908, -73.99980229439016],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_a526dfc321b94e7597fa1a0df249827e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f9a0574ec51642a485e0188e4757ba94.setIcon(icon_a526dfc321b94e7597fa1a0df249827e);
+        
+    
+        var popup_e5e3429d132e44969abd643b07fb789d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07a06d25b6e2404799f6f29cd67c7727 = $(`<div id="html_07a06d25b6e2404799f6f29cd67c7727" style="width: 100.0%; height: 100.0%;">('Construction Fence', '$125,000,000')</div>`)[0];
+            popup_e5e3429d132e44969abd643b07fb789d.setContent(html_07a06d25b6e2404799f6f29cd67c7727);
+        
+
+        marker_f9a0574ec51642a485e0188e4757ba94.bindPopup(popup_e5e3429d132e44969abd643b07fb789d)
+        ;
+
+        
+    
+    
+            var marker_c2eacaaa6d1a448da4970bd83e7cb621 = L.marker(
+                [40.8803581, -73.8813965],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_a8cf44a9e23d498f9c39e40f7b0c7aab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c2eacaaa6d1a448da4970bd83e7cb621.setIcon(icon_a8cf44a9e23d498f9c39e40f7b0c7aab);
+        
+    
+        var popup_11cdf97089b44a139f5b28a633fc0ee8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bff3ef0a60c24ba59aca17691ecf81f1 = $(`<div id="html_bff3ef0a60c24ba59aca17691ecf81f1" style="width: 100.0%; height: 100.0%;">('Mechanical Systems', '$7,204,350')</div>`)[0];
+            popup_11cdf97089b44a139f5b28a633fc0ee8.setContent(html_bff3ef0a60c24ba59aca17691ecf81f1);
+        
+
+        marker_c2eacaaa6d1a448da4970bd83e7cb621.bindPopup(popup_11cdf97089b44a139f5b28a633fc0ee8)
+        ;
+
+        
+    
+    
+            var marker_e817f840ed694fb984fd4bc0444dc115 = L.marker(
+                [40.86925116, -73.91311804],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_64e315de16cc42d29560efa4a3a8372d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e817f840ed694fb984fd4bc0444dc115.setIcon(icon_64e315de16cc42d29560efa4a3a8372d);
+        
+    
+        var popup_8c1c51954d7644a68b6617690d81afb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b0ef71f66634e99acc9ff1026d47896 = $(`<div id="html_6b0ef71f66634e99acc9ff1026d47896" style="width: 100.0%; height: 100.0%;">('General Construction', '$7,631,000')</div>`)[0];
+            popup_8c1c51954d7644a68b6617690d81afb3.setContent(html_6b0ef71f66634e99acc9ff1026d47896);
+        
+
+        marker_e817f840ed694fb984fd4bc0444dc115.bindPopup(popup_8c1c51954d7644a68b6617690d81afb3)
+        ;
+
+        
+    
+    
+            var marker_2f52675f564044e9909983c54917bba4 = L.marker(
+                [40.587003831325305, -74.19915669879518],
+                {}
+            ).addTo(map_79863bc3c29740f48a38848dc7065dbb);
+        
+    
+            var icon_063589e2aeed48ceaab052d6c4320cd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2f52675f564044e9909983c54917bba4.setIcon(icon_063589e2aeed48ceaab052d6c4320cd4);
+        
+    
+        var popup_c7018457db55432f94a0b55619a36f0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dc3e30f32d64f66a9ae9bf9a66b8cc6 = $(`<div id="html_3dc3e30f32d64f66a9ae9bf9a66b8cc6" style="width: 100.0%; height: 100.0%;">('Foundation', '$7,850,000')</div>`)[0];
+            popup_c7018457db55432f94a0b55619a36f0d.setContent(html_3dc3e30f32d64f66a9ae9bf9a66b8cc6);
+        
+
+        marker_2f52675f564044e9909983c54917bba4.bindPopup(popup_c7018457db55432f94a0b55619a36f0d)
+        ;
+
+        
+    
+</script>
